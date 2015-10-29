@@ -1,0 +1,19 @@
+﻿<Window x:Class="BillingToolBox.Windows.UpdateSystemSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UpdateSystemSettings" 
+        Height="150" Width="350" MinHeight="150" MinWidth="350" ResizeMode="CanResizeWithGrip">
+    <Grid Margin="5">
+        <ComboBox Name="comboBox_Database" Height="23"
+                  Margin="0,0,80,0" VerticalAlignment="Top" HorizontalAlignment="Stretch"
+                  SelectionChanged="comboBox_Database_SelectionChanged"/>
+        <Button Content="Update" Name="button_Update" Height="23" Width="75"
+                Margin="0,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Right"
+                Click="button_Update_Click" IsDefault="True"/>
+        <Label Content="Server Date Override" Name="label_ServerDateOverride" Height="23" Width="120"
+               Margin="0,28,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Right"/>
+        <TextBox Name="textBox_ServerDateOverride" Height="23"
+                 Margin="125,28,0,0" VerticalAlignment="Top" HorizontalAlignment="Stretch"
+                 GotFocus="textBox_ServerDateOverride_GotFocus" GotKeyboardFocus="textBox_ServerDateOverride_GotKeyboardFocus" GotMouseCapture="textBox_ServerDateOverride_GotMouseCapture"/>
+    </Grid>
+</Window>

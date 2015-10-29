@@ -1,0 +1,9 @@
+
+=============Beginning Log 12:00:38=============
+
+Starting up...
+Loading services
+Main window initialized
+
+==============Closing Log 12:00:40==============
+

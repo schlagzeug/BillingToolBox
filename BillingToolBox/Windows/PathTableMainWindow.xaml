@@ -1,0 +1,22 @@
+﻿<Window x:Class="BillingToolBox.Windows.PathTableMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Path Table Editor"  Height="400" Width="440" MinHeight="300" MinWidth="440" ResizeMode="CanResizeWithGrip">
+    <Grid Margin="5">
+        <Label Content="Path Table:" Height="28" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Margin="0,0,0,0" Width="75" HorizontalContentAlignment="Right"/>
+        <Label Height="28" HorizontalAlignment="Left" Margin="80,0,0,0" Name="label_PathTable" VerticalAlignment="Top" Width="250" HorizontalContentAlignment="Left"/>
+        <Button Content="Open" Height="23" HorizontalAlignment="Left" Margin="335,0,0,0" Name="button_OpenPathTable" VerticalAlignment="Top" Width="75" Click="button_OpenPathTable_Click"/>
+        
+        <Label Content="Billing Server Name:" Height="28" HorizontalAlignment="Left" Margin="0,28,0,0" Name="label2" VerticalAlignment="Top" Width="135" HorizontalContentAlignment="Right" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="140,28,0,0" Name="textBox_BillingServer" VerticalAlignment="Top" Width="190" />
+
+        <Label Content="Billing Database Name:" Height="28" HorizontalAlignment="Left" Margin="0,56,0,0" Name="label3" VerticalAlignment="Top" Width="135" HorizontalContentAlignment="Right"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="140,56,0,0" Name="textBox_BillingDatabase" VerticalAlignment="Top" Width="190" />
+        <Button Content="Update" HorizontalAlignment="Left" Name="button_Save" Width="75" Click="button_Save_Click" Margin="335,56,0,0" Height="23" VerticalAlignment="Top" />
+        
+        <DataGrid AutoGenerateColumns="True" AlternatingRowBackground="LightBlue" Margin="0,84,0,28" Name="dataGrid_PathTableItems" MouseDoubleClick="dataGrid_PathTableItems_MouseDoubleClick" />
+        
+        <Button Content="Refresh" HorizontalAlignment="Left" Margin="0,0,0,0" Name="button_Cancel" Width="75" Click="button_Cancel_Click" Height="23" VerticalAlignment="Bottom" />
+        <Button Content="Add New Entry" Height="23" HorizontalAlignment="Left" Name="button_AddEntry" VerticalAlignment="Bottom" Width="100" Click="button_AddEntry_Click" Margin="80,0,0,0" />
+    </Grid>
+</Window>

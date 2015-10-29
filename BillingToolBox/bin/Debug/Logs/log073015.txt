@@ -1,0 +1,24 @@
+
+=============Beginning Log 02:42:34=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Loading processes
+Main window initialized
+Error is Time out has expired and the operation has not been completed.
+
+==============Closing Log 02:43:40==============
+
+
+=============Beginning Log 02:47:15=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Loading processes
+Main window initialized
+Error is Time out has expired and the operation has not been completed.
+
+==============Closing Log 02:53:02==============
+

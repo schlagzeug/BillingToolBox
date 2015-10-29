@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\app.config</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>BillingToolBox</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\BillingToolBoxSettings.Designer.cs</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\BillingToolBoxSettings.settings</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\ChangeConnectionStringWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\ChangeConnectionStringWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\TestClass.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\CommandsAndArgs.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\CustomizeCommandsAndArgumentsWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\CustomizeCommandsAndArgumentsWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\EnumSet.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\InsurityCustomer.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\Log.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\MainWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\MainWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\PathTableAddEntryWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\PathTableAddEntryWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\PathTableEntry.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\PathTableMainWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\PathTableMainWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\PopUpWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\PopUpWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\ServiceBusEndpoint.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\ServiceBusEndpointEditWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\ServiceBusEndpointEditWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\ServiceEditWindow.xaml</string>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\ServiceEditWindow.xaml.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\SQLScriptWorker.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\Tools.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

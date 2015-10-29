@@ -1,0 +1,25 @@
+﻿<Window x:Class="BillingToolBox.Windows.MergeDB"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MergeDB" Height="400" Width="575" MinHeight="300" MinWidth="400" ResizeMode="CanResizeWithGrip">
+    <Grid Margin="5">
+        <Label Content="Server:" Height="28" Width="65" HorizontalAlignment="Left" Margin="0,0,0,0" Name="label3" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+        <TextBox Height="23" Margin="70,0,105,0" Name="textBox_MergeDB_Server" IsReadOnly="True" IsReadOnlyCaretVisible="True" VerticalAlignment="Top"/>
+        <Button Content="Get Databases" Height="23" HorizontalAlignment="Right" Margin="0,0,0,0" Name="button_MergeDB_GetList" VerticalAlignment="Top" Width="100" Click="button_MergeDB_GetList_Click"/>
+        
+        <Label Content="Database:" Height="28" Width="65" HorizontalAlignment="Left" Margin="0,28,0,0" Name="label4" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+        <ComboBox Height="23" Margin="70,28,105,0" Name="comboBox_MergeDB_Databases" VerticalAlignment="Top" SelectionChanged="comboBox_MergeDB_Databases_SelectionChanged"/>
+        <Button Content="Run Merge" Height="23" HorizontalAlignment="Right" Margin="0,28,0,0" Name="button_MergeDB_Run" VerticalAlignment="Top" Width="100" Click="button_MergeDB_Run_Click"/>
+
+        <TextBox Margin="0,56,105,0" Name="textBox_MergeDB_Output" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" IsReadOnly="True" IsReadOnlyCaretVisible="True"  FontFamily="Courier New" />
+        
+        <CheckBox Content="Get Latest" Height="16" Width="90" HorizontalAlignment="Right" Margin="0,56,0,0" Name="checkBox_MergeDB_GetLatest" VerticalAlignment="Top" Checked="checkBox_MergeDB_GetLatest_Checked" Unchecked="checkBox_MergeDB_GetLatest_Unchecked"/>
+        <CheckBox Content="Force Get" Height="16" Width="80" Margin="0,77,0,0" Name="checkBox_MergeDB_ForceGet" VerticalAlignment="Top" HorizontalAlignment="Right" Checked="checkBox_MergeDB_ForceGet_Checked"/>
+        
+        <Button Content="Set Folders..." Height="23" HorizontalAlignment="Right" Margin="0,98,0,0" Name="button_SetFolders" VerticalAlignment="Top" Width="100" Click="button_SetFolders_Click"/>
+        
+        <Label Content="" Height="28" HorizontalAlignment="Right" Margin="0,0,0,56" Name="label_MergeDB_ErrorStats" VerticalAlignment="Bottom" Width="100"/>
+        <Button Content="Run Failed Files" Height="23" HorizontalAlignment="Right" Margin="0,0,0,28" Name="button_MergeDB_RunFailed" VerticalAlignment="Bottom" Width="100" Click="button_MergeDB_RunFailed_Click"/>
+        <Button Content="Open Files" Height="23" HorizontalAlignment="Right" Margin="0,0,0,0" Name="button_MergeDB_OpenFiles" VerticalAlignment="Bottom" Width="100" Click="button_MergeDB_OpenFiles_Click" />
+    </Grid>
+</Window>

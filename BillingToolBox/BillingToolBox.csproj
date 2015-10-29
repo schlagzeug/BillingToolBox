@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{479C1567-ED97-4035-8ED4-A07E61FE424B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BillingToolBox</RootNamespace>
+    <AssemblyName>BillingToolBox</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\Tools\BillingToolBox\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>greenmushroom.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Insurity.Billing.Library">
+      <HintPath>..\..\..\..\..\..\..\Work\Products\DailyBuild\BIN\Insurity.Billing.Library.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Classes\BillingDecisionsConfiguration.cs" />
+    <Compile Include="BillingToolBoxSettings.cs" />
+    <Compile Include="BillingToolBoxSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>BillingToolBoxSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ProcessData.cs" />
+    <Compile Include="Classes\TableLookupResult.cs" />
+    <Compile Include="Windows\BDDFolderSelect.xaml.cs">
+      <DependentUpon>BDDFolderSelect.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BDServicebusConfig.xaml.cs">
+      <DependentUpon>BDServicebusConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\BD_CentralConfig.xaml.cs">
+      <DependentUpon>BD_CentralConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ChangeConnectionStringWindow.xaml.cs">
+      <DependentUpon>ChangeConnectionStringWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\CommandsAndArgs.cs" />
+    <Compile Include="Windows\CustomizeCommandsAndArgumentsWindow.xaml.cs">
+      <DependentUpon>CustomizeCommandsAndArgumentsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\EnumSet.cs" />
+    <Compile Include="Classes\InsurityCustomer.cs" />
+    <Compile Include="Classes\ITable.cs" />
+    <Compile Include="Windows\MergeDB.xaml.cs">
+      <DependentUpon>MergeDB.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\PathTableAddEntryWindow.xaml.cs">
+      <DependentUpon>PathTableAddEntryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\PathTableEntry.cs" />
+    <Compile Include="Windows\PathTableMainWindow.xaml.cs">
+      <DependentUpon>PathTableMainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Log.cs" />
+    <Compile Include="Windows\PopUpWindow.xaml.cs">
+      <DependentUpon>PopUpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ProcessControl.cs" />
+    <Compile Include="Classes\ServiceBusEndpoint.cs" />
+    <Compile Include="Windows\ServiceBusEndpointEditWindow.xaml.cs">
+      <DependentUpon>ServiceBusEndpointEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ServiceEditWindow.xaml.cs">
+      <DependentUpon>ServiceEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ServiceInfo.cs" />
+    <Compile Include="Classes\SQLScriptWorker.cs" />
+    <Compile Include="Windows\DatabaseTableViewer.xaml.cs">
+      <DependentUpon>DatabaseTableViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\SystemSettings.cs" />
+    <Compile Include="Classes\TestClass.cs" />
+    <Compile Include="Classes\Tools.cs" />
+    <Compile Include="Windows\TableLookupByColumnName.xaml.cs">
+      <DependentUpon>TableLookupByColumnName.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UpdateSystemSettings.xaml.cs">
+      <DependentUpon>UpdateSystemSettings.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Windows\BDDFolderSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\BDServicebusConfig.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\BD_CentralConfig.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ChangeConnectionStringWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CustomizeCommandsAndArgumentsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MergeDB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\PathTableAddEntryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\PathTableMainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Windows\PopUpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ServiceBusEndpointEditWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ServiceEditWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DatabaseTableViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\TableLookupByColumnName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\UpdateSystemSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingToolBoxSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>BillingToolBoxSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Merge.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="greenmushroom.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

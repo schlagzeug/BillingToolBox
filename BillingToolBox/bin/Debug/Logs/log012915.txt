@@ -1,0 +1,68 @@
+
+=============Beginning Log 01:32:16=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+The ConnectionString property has not been initialized.
+Main window initialized
+The ConnectionString property has not been initialized.
+
+==============Closing Log 01:32:28==============
+
+
+=============Beginning Log 01:43:31=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 01:43:58==============
+
+
+=============Beginning Log 01:50:11=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 01:51:09==============
+
+
+=============Beginning Log 01:52:20=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 01:52:39==============
+
+
+=============Beginning Log 01:56:32=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 01:56:58==============
+
+
+=============Beginning Log 01:58:06=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 01:58:50==============
+

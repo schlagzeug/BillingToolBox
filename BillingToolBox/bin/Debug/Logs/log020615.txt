@@ -1,0 +1,44 @@
+
+=============Beginning Log 09:57:38=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 09:58:36==============
+
+
+=============Beginning Log 10:03:59=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 10:04:08==============
+
+
+=============Beginning Log 10:05:05=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 10:05:23==============
+
+
+=============Beginning Log 10:06:01=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 10:08:08==============
+

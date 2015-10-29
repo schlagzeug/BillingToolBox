@@ -1,0 +1,2024 @@
+Warning: column AccountBillFees.FeeAmount is already defined as numeric(7,2).
+Warning: column AccountBillFees.FeeMinAmt is already defined as numeric(7,2).
+Warning: column AccountBillFees.FeeMaxAmt is already defined as numeric(9,2).
+Warning: column AccountBillFees.InstallmentFeeSurchargePercent is already defined as numeric(5,2).
+Warning: column AccountBillLateFees.TransactionBalanceAmt is already defined as numeric(15,2).
+Warning: column AccountBillLateFees.FeeAmount is already defined as numeric(7,2).
+Warning: column AccountBillLateFees.FeeMinAmt is already defined as numeric(7,2).
+Warning: column AccountBillLateFees.FeeMaxAmt is already defined as numeric(7,2).
+Warning: column AccountBillLateFees.LateFeeRawAmt is already defined as numeric(15,2).
+Warning: column AccountInvoice.InvoiceAmt is already defined as numeric(15,2).
+Warning: column AccountInvoice.InvoiceCancelAmt is already defined as numeric(15,2).
+Warning: column AccountInvoice.AccountBalance is already defined as numeric(15,2).
+Warning: column AccountInvoiceDetail.InvoiceDetailAmt is already defined as numeric(15,2).
+Warning: column AccountNumber.MinInvoiceAmt is already defined as numeric(15,2).
+Warning: column AccountSuspenseDetail.AllocationAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.TransactionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.TransactionBalanceAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.FullTermAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.WrittenNetAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.WrittenGrossAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.CommissionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillAR.EFTOverrideAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARAlloc.TransactionAllocationAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARAlloc.StatementAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARAlloc.DisputedGrossAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARAlloc.DisputedCommissionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARInstallment.TransactionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.TransactionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.TransactionBalanceAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.FullTermAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.WrittenNetAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.WrittenGrossAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.CommissionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.EFTOverrideAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARRealTimeQuery.TFSAmount is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.RenewalOfferAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.CurrentRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.FutureRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.ARBalanceAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.CurrentBalanceAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.BalanceDueTill30daysAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.BalanceDue31_60daysAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.BalanceDue61_89daysAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.BalanceDueOver90DaysAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.DeferredBalanceAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.FuturePremiumAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.FutureCashReceivedAmt is already defined as numeric(15,2).
+Warning: column AgencyBillARStage.FutureOtherAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterface.WrittenPremiumAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterface.WrittenTaxAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterface.PaymentAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetail.FullTermAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetail.WrittenAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetail.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetail.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetail.AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetailRTQ.FullTermAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetailRTQ.WrittenAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetailRTQ.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetailRTQ.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceDetailRTQ.AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceRTQ.WrittenPremiumAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceRTQ.WrittenTaxAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceRTQ.PaymentAmt is already defined as numeric(15,2).
+Warning: column AgencyBillInterfaceRTQ.TFSAmount is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.StatementAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.StatementCurrentAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.StatementDueAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.StatementPastDueAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.SuspenseAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.CurrentGrossAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.CurrentCommAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.CurrentNetAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.FutureApplied is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.PastDue30 is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.PastDue60 is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.PastDue90 is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.PastDueOver90 is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.StatementDueGrossAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatement.StatementDueCommissionAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.StatementBalanceAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.StatementAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.StatementCurrentAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.StatementDueAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.StatementPastDueAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.PastDue30 is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.PastDue60 is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.PastDue90 is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.PastDueOver90 is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.StatementDueGrossAmt is already defined as numeric(15,2).
+Warning: column AgencyBillStatementLine.StatementDueCommissionAmt is already defined as numeric(15,2).
+Warning: column AgencyJournal.AgencyJournalAmt is already defined as numeric(15,2).
+Warning: column AgencyJournal.AppliedAmt is already defined as numeric(15,2).
+Warning: column Agent.WriteOffAmount is already defined as numeric(15,2).
+Warning: column AgentAR.TransactionAmt is already defined as numeric(15,2).
+Warning: column AgentAR.TransactionBalanceAmt is already defined as numeric(15,2).
+Warning: column AgentAR.FullTermAmt is already defined as numeric(15,2).
+Warning: column AgentAR.WrittenAmt is already defined as numeric(15,2).
+Warning: column AgentAR.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentAR.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentAR.CommissionAmt is already defined as numeric(15,2).
+Warning: column AgentARAlloc.TransactionAllocationAmt is already defined as numeric(15,2).
+Warning: column AgentARWait.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentARWait.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentARWait.CommissionAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitEarned.CommissionAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitEarned.DailyCommissionAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitEarned.EarnedCommissionAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitEarned.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitEarned.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitWritten.CommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitWritten.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column AgentARWaitWritten.CommissionAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.AgencyNewBusInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.AgencyRenewInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.AgencyContinInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.AgencyNewBusChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.AgencyRenewChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.AgencyContinChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.DirectNewBusInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.DirectRenewInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.DirectContinInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.DirectNewBusChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.DirectRenewChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandard.DirectContinChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.AgencyNewBusInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.AgencyRenewInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.AgencyContinInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.AgencyNewBusChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.AgencyRenewChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.AgencyContinChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.DirectNewBusInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.DirectRenewInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.DirectContinInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.DirectNewBusChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.DirectRenewChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommStandardDetail.DirectContinChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.AgencyNewBusInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.AgencyRenewInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.AgencyContinInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.AgencyNewBusChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.AgencyRenewChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.AgencyContinChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.DirectNewBusInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.DirectRenewInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.DirectContinInitFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.DirectNewBusChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.DirectRenewChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentCommTier.DirectContinChangeFlatAmt is already defined as numeric(15,2).
+Warning: column AgentJournal.AgentJournalAmt is already defined as numeric(15,2).
+Warning: column AgentJournal.AppliedAmt is already defined as numeric(15,2).
+Warning: column AgentStatement.StatementAmt is already defined as numeric(15,2).
+Warning: column AgentStatement.StatementPriorAmt is already defined as numeric(15,2).
+Warning: column AgentStatement.CombinedStatementAmt is already defined as numeric(15,2).
+Warning: column AgentStatementCurrentDue.WrittenGrossAmt is already defined as numeric(15,2).
+Warning: column AgentStatementCurrentDue.CommissionAmt is already defined as numeric(15,2).
+Warning: column AgentStatementCurrentDue.WrittenNetAmt is already defined as numeric(15,2).
+Warning: column AgentStatementLine.StatementLineAmt is already defined as numeric(15,2).
+Warning: column AgentStatementLine.StatementLineOpenBalanceAmt is already defined as numeric(15,2).
+Warning: column AgentStatementLine.StatementLineBalanceAmt is already defined as numeric(15,2).
+Warning: column AgentSweepPayment.PaymentAmt is already defined as numeric(15,2).
+Warning: column BankAccountSignatory.BankAccountSignatoryToAmt is already defined as numeric(15,2).
+Warning: column BDBalancing.DirectBillCommReleased is already defined as numeric(15,2).
+Warning: column BDBalancing.DirectBillCommReleasedDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.DirectBillCommPaid is already defined as numeric(15,2).
+Warning: column BDBalancing.DirectBillCommPaidDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.AgencyBillTotalCommissons is already defined as numeric(15,2).
+Warning: column BDBalancing.AgencyBillTotalComimissonsDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalPolicyFees is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalPolicyFeesDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.BDInitiatedFees is already defined as numeric(15,2).
+Warning: column BDBalancing.BDInitiatedFeesDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalInvoicedAmtAccount is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalInvoicedAmtAccountDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalInvoicedAmtDirect is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalInvoicedAmtDirectDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalInvoicedAmtAgency is already defined as numeric(15,2).
+Warning: column BDBalancing.TotalInvoicedAmtAgencyDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.WrittenGrossAmt is already defined as numeric(15,2).
+Warning: column BDBalancing.WrittenGrossAmtDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.SumEFTAmt is already defined as numeric(15,2).
+Warning: column BDBalancing.SumEFTAmtDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.SumLockBoxAmt is already defined as numeric(15,2).
+Warning: column BDBalancing.SumLockBoxAmtDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.SumDeductibleRecoveryCashRec is already defined as numeric(15,2).
+Warning: column BDBalancing.SumDeductibleRecoveryCashRecDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.SumJournalEntryAmt is already defined as numeric(15,2).
+Warning: column BDBalancing.SumJournalEntryAmtDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.SumTotalPaid is already defined as numeric(15,2).
+Warning: column BDBalancing.SumTotalPaidDelta is already defined as numeric(15,2).
+Warning: column BDBalancing.SumDisbursementAmt is already defined as numeric(15,2).
+Warning: column BDBalancing.SumDisbursementAmtDelta is already defined as numeric(15,2).
+Warning: column BDClaim.DeductibleAmt is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.InstallmentPremium is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.Commission is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.InstallmentCharge is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.TaxDue is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.FeeDue is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.SurchargeDue is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.TotalDue is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.Cash is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.APRP is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.EscDep is already defined as numeric(15,2).
+Warning: column BDODSReconciliation.ClmDep is already defined as numeric(15,2).
+Warning: column CancellationRule.ReinsFeeAmt is already defined as numeric(15,2).
+Warning: column CancelReinstateCycle.AmountDue is already defined as numeric(15,2).
+Warning: column CancelReinstateCycle.BalanceDue is already defined as numeric(15,2).
+Warning: column CardPlan.DenialFeeAmount is already defined as numeric(15,2).
+Warning: column CashDisbursement.CashDisbursementAmt is already defined as numeric(15,2).
+Warning: column CashDisbursement.AppliedAmt is already defined as numeric(15,2).
+Warning: column CashDisbursement.ClearedAmt is already defined as numeric(15,2).
+Warning: column CashDisbursementPolicy.CashDisbursementPolicyAmt is already defined as numeric(15,2).
+Warning: column CashDisbursementReconciliation.ClearedAmt is already defined as numeric(15,2).
+Warning: column CashReceipt.CashReceiptAmt is already defined as numeric(15,2).
+Warning: column CashReceipt.AppliedAmt is already defined as numeric(15,2).
+Warning: column CashReceiptAccount.CashReceiptPolicyAmt is already defined as numeric(15,2).
+Warning: column CashReceiptAgencyRealloc.CashReceiptAgencyReallocAmt is already defined as numeric(15,2).
+Warning: column CashReceiptAgencyRealloc.AppliedAmt is already defined as numeric(15,2).
+Warning: column CashReceiptAgencySuspense.TransactionAmt is already defined as numeric(15,2).
+Warning: column CashReceiptAgentRealloc.CashReceiptAgentReallocAmt is already defined as numeric(15,2).
+Warning: column CashReceiptAgentRealloc.AppliedAmt is already defined as numeric(15,2).
+Warning: column CashReceiptBatch.BatchAmt is already defined as numeric(15,2).
+Warning: column CashReceiptBatch.CapturedAmt is already defined as numeric(15,2).
+Warning: column CashReceiptPayDedRealloc.CashReceiptPayDedReallocAmt is already defined as numeric(15,2).
+Warning: column CashReceiptPayDedRealloc.AppliedAmt is already defined as numeric(15,2).
+Warning: column CashReceiptPayDedSuspense.TransactionAmt is already defined as numeric(15,2).
+Warning: column CashReceiptPolicy.CashReceiptPolicyAmt is already defined as numeric(15,2).
+Warning: column Claimant.TotalAmtPaid is already defined as numeric(15,2).
+Warning: column Claimant.TotalAmtRecovered is already defined as numeric(15,2).
+Warning: column Claimant.TotalAmtBilled is already defined as numeric(15,2).
+Warning: column ClaimsDecisionsExport.ExpectedRecoveryAmt is already defined as numeric(15,2).
+Warning: column ClaimsDecisionsExport.RecoveryAmt is already defined as numeric(15,2).
+Warning: column ClientRuleRelationship.CurrencyValue is already defined as numeric(15,2).
+Warning: column CompanyJournal.CompanyJournalAmt is already defined as numeric(15,2).
+Warning: column CompanyJournal.AppliedAmt is already defined as numeric(15,2).
+Warning: column DBReviseInstallment.CommissionBaseAmt is already defined as numeric(15,2).
+Warning: column DBReviseInstallment.NonCommissionBaseAmt is already defined as numeric(15,2).
+Warning: column DBReviseInstallment.CommissionAmt is already defined as numeric(15,2).
+Warning: column DeductibleAccount.MinInvoiceAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryAR.TransactionAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryAR.TransactionBalanceAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryARAlloc.TransactionAllocationAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryARAlloc.AllocationAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryARInstallment.TransactionAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryEntry.ClaimPaymentAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryEntry.ClaimRecoveryAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.StatementAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.StatementCurrentAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.StatementDueAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.StatementPastDueAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.PastDue30 is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.PastDue60 is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.PastDue90 is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatement.PastDueOver90 is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.StatementBalanceAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.StatementAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.StatementCurrentAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.StatementDueAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.StatementPastDueAmt is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.PastDue30 is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.PastDue60 is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.PastDue90 is already defined as numeric(15,2).
+Warning: column DeductibleRecoveryStatementLine.PastDueOver90 is already defined as numeric(15,2).
+Warning: column DefaultReserve.MedicalReserveAmt is already defined as numeric(15,2).
+Warning: column DefaultReserve.MedicalReserveLAEAmt is already defined as numeric(15,2).
+Warning: column DefaultReserve.IndemnityReserveAmt is already defined as numeric(15,2).
+Warning: column DefaultReserve.IndemnityReserveLAEAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.TransactionAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.TransactionBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.FullTermAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.WrittenAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.CommissionableAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column DirectBillAR.PayrollDeductionAmt is already defined as numeric(15,2).
+Warning: column DirectBillARAlloc.TransactionAllocationAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.RenewalOfferAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.CurrentRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.FutureRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.ARBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.CurrentBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.BalanceDueTill30daysAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.BalanceDue31_60daysAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.BalanceDue61_89daysAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.BalanceDueOver90DaysAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.DeferredBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.FuturePremiumAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.FutureCashReceivedAmt is already defined as numeric(15,2).
+Warning: column DirectBillARStage.FutureOtherAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterface.WrittenPremiumAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterface.WrittenTaxAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterface.PaymentAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.FullTermAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.WrittenAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.CommissionableAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.Level1AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.Level2AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.Level3AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.Level1TransactionCommWrittenAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.Level2TransactionCommWrittenAmt is already defined as numeric(15,2).
+Warning: column DirectBillInterfaceDetail.Level3TransactionCommWrittenAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotCurrentRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotF1MonthRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotFutureRenewalOfferAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotARBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotCurrentBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.Snapshot90DayBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotDeferredBalanceAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotFuturePremiumAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotF1MonthPremiumAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotFutureCashReceivedAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotF1MonthCashReceivedAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotFutureOtherAmt is already defined as numeric(15,2).
+Warning: column DirectBillSnapshot.SnapshotF1MonthOtherAmt is already defined as numeric(15,2).
+Warning: column DisbursementExportHistory.ExportAmount is already defined as numeric(15,2).
+Warning: column EFTDetail.EFTAmount is already defined as numeric(15,2).
+Warning: column EFTFile.TotalDisbursementAmt is already defined as numeric(15,2).
+Warning: column EFTFile.TotalReceiptAmt is already defined as numeric(15,2).
+Warning: column EFTPlan.EFTDiscountAmt is already defined as numeric(15,2).
+Warning: column EFTPlanDiscount.EFTDiscountAmt is already defined as numeric(15,2).
+Warning: column EmployerStatement.StatementAmt is already defined as numeric(15,2).
+Warning: column EmployerStatementDetail.StatementAmt is already defined as numeric(15,2).
+Warning: column Export1099.IndividualMinAmt is already defined as numeric(15,2).
+Warning: column Export1099.CorporateMinAmt is already defined as numeric(15,2).
+Warning: column Export1099.Export1099Amt is already defined as numeric(15,2).
+Warning: column Export1099Detail.Export1099DetailAmt is already defined as numeric(15,2).
+Warning: column Export1099Detail.Box6Amt is already defined as numeric(15,2).
+Warning: column Export1099Detail.Box7Amt is already defined as numeric(15,2).
+Warning: column Export1099Detail.Box13Amt is already defined as numeric(15,2).
+Warning: column ExternalInterface.TotalPayments is already defined as numeric(15,2).
+Warning: column ExternalInterfaceDetail.Amount is already defined as numeric(15,2).
+Warning: column GLFeedExtractHistory.Amount is already defined as numeric(15,2).
+Warning: column GLFeedExtractHistory.Commission is already defined as numeric(15,2).
+Warning: column Installment.CommissionBaseAmt is already defined as numeric(15,2).
+Warning: column Installment.CommissionBaseBalanceAmt is already defined as numeric(15,2).
+Warning: column Installment.NonCommissionBaseAmt is already defined as numeric(15,2).
+Warning: column Installment.NonCommissionBaseBalanceAmt is already defined as numeric(15,2).
+Warning: column Installment.CommissionBaseChangeAmt is already defined as numeric(15,2).
+Warning: column Installment.CommissionAmt is already defined as numeric(15,2).
+Warning: column Installment.InsFeeAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.CommissionBaseAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.CommissionBaseBalanceAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.NonCommissionBaseAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.NonCommissionBaseBalanceAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.CommissionBaseChangeAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.CommissionAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.InsFeeAmt is already defined as numeric(15,2).
+Warning: column InstallmentQuote.TFSAmount is already defined as numeric(15,2).
+Warning: column InstallmentQuote.YellowRibbonDiscountAmount is already defined as numeric(15,2).
+Warning: column ManualEntryPolicyDetail.FullTermAmt is already defined as numeric(15,2).
+Warning: column ManualEntryPolicyDetail.WrittenAmt is already defined as numeric(15,2).
+Warning: column MasterAgentAR.TransactionAmt is already defined as numeric(15,2).
+Warning: column MessageQueue.WrittenAmt is already defined as numeric(15,2).
+Warning: column MessageQueue.PaymentAmt is already defined as numeric(15,2).
+Warning: column MessageQueue.TaxAmt is already defined as numeric(15,2).
+Warning: column MessageQueue.SurchargeAmt is already defined as numeric(15,2).
+Warning: column MessageQueue.FeeAmt is already defined as numeric(15,2).
+Warning: column PaymasterTransactions.ControlTransactionTotal is already defined as numeric(15,2).
+Warning: column PayPlan.FeeAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentFee.MinimumAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentFee.MaximumAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentFee.FeeAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentState.PercentageMaximumAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentState.FlatFeeAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentState.MinimumPremiumThresholdAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentState.PremiumIncrementAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentState.IncrementFeeAmt is already defined as numeric(15,2).
+Warning: column PayPlanInstallmentState.InstallmentFeeSurchargePercent is already defined as numeric(15,2).
+Warning: column PayPlanSchedule.FeeAmt is already defined as numeric(15,2).
+Warning: column PayrollCycle.PayrollServiceFeeAmt is already defined as numeric(15,2).
+Warning: column PdReconImport.PremiumAmount is already defined as numeric(15,2).
+Warning: column PdReconImport.TFSAmount is already defined as numeric(15,2).
+Warning: column PdReconImport.FullPremiumAmt is already defined as numeric(15,2).
+Warning: column PdReconImport.FullTaxAmt is already defined as numeric(15,2).
+Warning: column Policy.FullTermPremiumAmt is already defined as numeric(15,2).
+Warning: column Policy.WrittenPremiumAmt is already defined as numeric(15,2).
+Warning: column Policy.WrittenTaxAmt is already defined as numeric(15,2).
+Warning: column Policy.WrittenFeeAmt is already defined as numeric(15,2).
+Warning: column Policy.WrittenSurchargeAmt is already defined as numeric(15,2).
+Warning: column PolicyCollectionTransfer.TransferAmount is already defined as numeric(15,2).
+Warning: column PolicyControl.PolicyControlDueAmt is already defined as numeric(15,2).
+Warning: column PolicyControl.RenewalInstallmentAmt is already defined as numeric(15,2).
+Warning: column PolicyControl.LastRenewalInstallmentAmt is already defined as numeric(15,2).
+Warning: column PolicyControl.RenewalQuoteDueAmt is already defined as numeric(15,2).
+Warning: column PolicyControl.RenewalQuoteCashReceived is already defined as numeric(15,2).
+Warning: column PolicyControl.YellowRibbonDiscountAmt is already defined as numeric(15,2).
+Warning: column PolicyControlHistory.PolicyControlDueAmt is already defined as numeric(15,2).
+Warning: column PolicyControlHistory.RenewalInstallmentAmt is already defined as numeric(15,2).
+Warning: column PolicyControlHistory.RenewalQuoteDueAmt is already defined as numeric(15,2).
+Warning: column PolicyControlHistory.RenewalQuoteCashReceived is already defined as numeric(15,2).
+Warning: column PolicyForm.DueAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentDetail.InstallmentAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentSummary.InitialInstallmentAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentSummary.AllocationAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentSummary.PremiumAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentSummary.TFSAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentSummary.BillingFeeAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentSummary.DueAmt is already defined as numeric(15,2).
+Warning: column PolicyInstallmentSummary.WithHeldCommissionAmt is already defined as numeric(15,2).
+Warning: column PolicyInvoice.InvoiceAmt is already defined as numeric(15,2).
+Warning: column PolicyInvoice.InvoiceCancelAmt is already defined as numeric(15,2).
+Warning: column PolicyInvoice.PolicyBalance is already defined as numeric(15,2).
+Warning: column PolicyInvoice.PriorPolicyAmount is already defined as numeric(15,2).
+Warning: column PolicyInvoiceDetail.InvoiceDetailAmt is already defined as numeric(15,2).
+Warning: column PolicyJournal.PolicyJournalAmt is already defined as numeric(15,2).
+Warning: column PolicyJournal.AppliedAmt is already defined as numeric(15,2).
+Warning: column PolicyTFS.TFSSetupAmt is already defined as numeric(15,2).
+Warning: column PolicyTFS.TFSBaseWrittenAmt is already defined as numeric(15,2).
+Warning: column PolicyTFS.TFSWrittenAmt is already defined as numeric(15,2).
+Warning: column PolicyTFS.TFSActualWrittenAmt is already defined as numeric(15,2).
+Warning: column PolicyTFS.TFSNetWrittenAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.MinInvoiceAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.MinCashDisbursementAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.RecWOMaxAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.ExpWOMaxAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.ReinsFeeAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.FinancialResponsibilityAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.MinPremiumEarnedAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.NSFFeeAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.LateFeeAmt is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.MinimumWriteOffForCollectionReferral is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.CollectionReferralFee is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.RPPostTolerance is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.EXPWOMaxAmtC is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.ToleranceLastInsShortPay is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.CollectionNotice1Amount is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.CollectionNotice2Amount is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.CollectionNotice3Amount is already defined as numeric(15,2).
+Warning: column ProgramCompanyState.NoOfDaysToTransferCollection is already defined as numeric(15,2).
+Warning: column ProgramRule.FTEFullTimeFactor is already defined as numeric(15,2).
+Warning: column ProgramRule.FTEPartTimeFactor is already defined as numeric(15,2).
+Warning: column ProgramRule.FTETemporaryFactor is already defined as numeric(15,2).
+Warning: column ProgramRule.FTELeasedContractFactor is already defined as numeric(15,2).
+Warning: column ProgramRule.FTEOver75TFactor is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit1Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit2Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit3Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit4Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit5Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit6Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit7Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Limit8Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Deductible1Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Deductible2Amt is already defined as numeric(15,2).
+Warning: column ProgramStateCoverageLimit.Coinsurance2Amt is already defined as numeric(15,2).
+Warning: column RecurringCardProcess.CardAmt is already defined as numeric(15,2).
+Warning: column RecurringCardProcess.CardFeeAmt is already defined as numeric(15,2).
+Warning: column RecurringCardProcess.InstallmentAmt is already defined as numeric(15,2).
+Warning: column RecurringCardProcess.InstallmentFeeAmt is already defined as numeric(15,2).
+Warning: column RecurringCardProcess.RegularAmt is already defined as numeric(15,2).
+Warning: column RecurringCardProcess.OverlapAmt is already defined as numeric(15,2).
+Warning: column RepTempAgentCommission.CommissionMTDAmt is already defined as numeric(15,2).
+Warning: column RepTempAgentCommission.CommissionYTDAmt is already defined as numeric(15,2).
+Warning: column RepTempAgentCommission.WrittenPremiumYTDAmt is already defined as numeric(15,2).
+Warning: column RepTempAgentCommission.WrittenPremiumMTDAmt is already defined as numeric(15,2).
+Warning: column RepTempBalanceDue.BalanceAmt is already defined as numeric(15,2).
+Warning: column RepTempBalanceDue.PremiumAmt is already defined as numeric(15,2).
+Warning: column RepTempBalanceDue.CashReceivedAmt is already defined as numeric(15,2).
+Warning: column RepTempBalanceDue.OtherAmt is already defined as numeric(15,2).
+Warning: column RepTempInactiveAgent.SumWrittenPremiumAmt is already defined as numeric(15,2).
+Warning: column TFS.TFSSetupAmt is already defined as numeric(15,2).
+Warning: column UserInfo.MaxWriteOffAmt is already defined as numeric(15,2).
+Warning: column EntityAccountInfo.MinInvoiceAmt is already defined as numeric(15,2).
+Warning: column EntityAccountInvoice.InvoiceAmt is already defined as numeric(15,2).
+Warning: column EntityAccountInvoice.EntityAccountBalance is already defined as numeric(15,2).
+Warning: column EntityAccountInvoiceDetail.InvoiceDetailAmt is already defined as numeric(15,2).
+Warning: column EntityAccountPolicyInvoice.PolicyBalance is already defined as numeric(15,2).
+Warning: column EntityAccountPolicyInvoice.PriorPolicyAmount is already defined as numeric(15,2).
+Warning: column EntityAccountPolicyInvoiceDetail.InvoiceDetailAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.TransactionAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.TransactionBalanceAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.FullTermAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.WrittenAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.CommissionableAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column EntityBillAR.PayrollDeductionAmt is already defined as numeric(15,2).
+Warning: column EntityBillARAlloc.TransactionAllocationAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterface.WrittenPremiumAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterface.WrittenTaxAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterface.PaymentAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.FullTermAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.WrittenAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.CommissionableAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.NonCommissionableAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.Level1AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.Level2AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.Level3AgentCommissionAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.Level1TransactionCommWrittenAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.Level2TransactionCommWrittenAmt is already defined as numeric(15,2).
+Warning: column EntityBillInterfaceDetail.Level3TransactionCommWrittenAmt is already defined as numeric(15,2).
+ $Id$ AccountBillBranch.sql
+     Warning: column NHDiscriminator already exists in AccountBillBranch table.
+     Column City of the table AccountBillBranch has already a maximum length of 40 characters. Column was not altered.
+ $Id$ AccountBillBranchEvents.sql
+     Warning: column NHDiscriminator already exists in AccountBillBranchEvents table.
+Warning: column AccountBillBranchEvents.ShowOnPolicyActivityYN already have a default value.
+ $Id$ AccountBillFees.sql
+Warning: column AccountBillFees.InstallmentFeeSurchargeYN already have default value.
+ $Id$ AccountingGroup.sql
+     Column City of the table AccountingGroup has already a maximum length of 40 characters. Column was not altered.
+ $Id$ AccountNumber.sql
+     Column MailingCity of the table AccountNumber has already a maximum length of 40 characters. Column was not altered.
+	 Warning: column CurrencyCode already exists in AccountNumber table.
+CurrencyCode column is already defaulted
+     Column MailingAddress3 was added to AccountNumber table.
+     Column ContactPhone was added to AccountNumber table.
+     Column ExternalDivisionCode was added to AccountNumber table.
+     Column ExternalGlsAccountCode was added to AccountNumber table.
+     Column HomePhone of the table AccountNumber was altered.
+     Column CellPhone of the table AccountNumber was altered.
+     Column FaxNumber of the table AccountNumber was altered.
+ $Id$ AccountInvoice.sql
+     Warning: column FirstInvAfterDefYN already exists in AccountInvoice table.
+ $Id$ AccountPaymentMethod.sql
+     Warning: column NHDiscriminator already exists in AccountPaymentMethod table.
+ $Id$ AccountSuspense.sql
+     Warning: column NHDiscriminator already exists in AccountSuspense table.
+ $Id$ AccountSuspenseDetail.sql
+     Warning: column NHDiscriminator already exists in AccountSuspenseDetail table.
+     Warning: column ExportedYN already exists in AccountSuspenseDetail table.
+     Warning: column ExportedDate already exists in AccountSuspenseDetail table.
+ $Id$ AffinityAccount.sql
+     Warning: column NHDiscriminator already exists in AffinityAccount table.
+ $Id$ AgencyBillAR.sql
+     Warning: column NHDiscriminator already exists in AgencyBillAR table.
+ $Id$ AgencyBillArAlloc.sql
+     Warning: column NHDiscriminator already exists in AgencyBillArAlloc table.
+ $Id$ AgencyBillARRealTimeQuery.sql
+ $Id$ AgencyBillInterface.sql
+     Warning: column NHDiscriminator already exists in AgencyBillInterface table.
+     Warning: column CancellationStateCode already exists in AgencyBillInterface table.
+     Warning: column SourcePolicyAlternateTransactionType already exists in AgencyBillInterface table.
+     Warning: column SourcePolicyOriginalTransactionType already exists in AgencyBillInterface table.
+ $Id$ AgencyBillInterfaceDetail.sql
+     Warning: column NHDiscriminator already exists in Agent table.
+ $Id$ AgencyBillStatement.sql
+ $Id$ AgencyBillStatementLine.sql
+ $Id$ AgencyJournal.sql
+     Warning: column NHDiscriminator already exists in AgencyJournal table.
+ $Id$ Agent.sql
+     Warning: column NHDiscriminator already exists in Agent table.
+     Column City of the table Agent has already a maximum length of 40 characters. Column was not altered.
+     Column StatementCity of the table Agent has already a maximum length of 40 characters. Column was not altered.
+     Column ShippingCity of the table Agent has already a maximum length of 40 characters. Column was not altered.
+     Warning: column CountyCode already exists in Agent table.
+     Warning: column Coutry already exists in Agent table.
+	 Warning: column CurrencyCode already exists in Agent table.
+CurrencyCode column is already defaulted
+ $Id$ AgentAR.sql
+Warning: column CommEntityBillAR already exists in  AgentAR table.
+Warning: column SystemSourceCode already exists in  AgentAR table.
+ $Id$ AgentArAlloc.sql
+     Warning: column NHDiscriminator already exists in AgentArAlloc table.
+ $Id$ AgentARWait.sql
+Warning: column EntityBillAR already exists in  AgentARWait table.
+Warning: column SystemSourceCode already exists in  AgentARWait table.
+ $Id$ AgentARWaitEarned.sql
+Warning: column NHDiscriminator already exists in  AgentARWaitEarned table.
+Warning: column SystemSourceCode already exists in  AgentARWaitEarned table.
+ $Id$ AgentARWaitWritten.sql
+Warning: column SystemSourceCode already exists in  AgentARWaitWritten table.
+ $Id$ AgentCommStandard.sql
+     Warning: column NHDiscriminator already exists in AgentCommStandard table.
+ $Id$ AgentCommStandardDetail.sql
+     Warning: column NHDiscriminator already exists in AgentCommStandardDetail table.
+ $Id$ AgentCompany.sql
+     Warning: column NHDiscriminator already exists in AgentCompany table.
+ $Id$ AgentJournal.sql
+     Warning: column NHDiscriminator already exists in AgentJournal table.
+ $Id$ AgentLicense.sql
+     Warning: column NHDiscriminator already exists in  AgentLicense
+           table.
+ $Id$ AgentPaymentMethod.sql
+     Warning: column NHDiscriminator already exists in AgentPaymentMethod table.
+ $Id$ AgentPrefix.sql
+     Warning: column NHDiscriminator already exists in AgentPrefix table.
+ $Id$ AgentProgram.sql
+     Warning: column NHDiscriminator already exists in AgentProgram table.
+ $Id$ AgentStatement.sql
+     Warning: column NHDiscriminator already exists in  AgentStatement
+           table.
+ $Id$ AgentStatementLine.sql
+     Warning: column NHDiscriminator already exists in  AgentStatementLine
+           table.
+     Warning: column InUseYN already exists in AgentStatementPeriod table.
+ $Id$ AgentStatus.sql
+     Warning: column NHDiscriminator already exists in  AgentStatus
+           table.
+ $Id$ AgentStatusCategory.sql
+     Warning: column NHDiscriminator already exists in  AgentStatusCategory
+           table.
+ $Id$ AgentSweepPayment.sql
+     Warning: column NHDiscriminator already exists in AgentSweepPayment table.
+ $Id$ AreaOfExpertise.sql
+     Warning: column NHDiscriminator already exists in AreaOfExpertise table.
+ $Id$ ASL.sql
+     Warning: column NHDiscriminator already exists in ASL table.
+ $Id$ BankAccountDisbursement.sql
+     Warning: column NHDiscriminator already exists in BankAccountDisbursement table.
+ $Id$ BankAccountReceipt.sql
+     Warning: column NHDiscriminator already exists in BankAccountReceipt table.
+ $Id$ BankAccountReceiptProgram.sql
+     Warning: column NHDiscriminator already exists in BankAccountReceiptProg table.
+ $Id$ BDClaim.sql
+     Warning: column NHDiscriminator already exists in BDClaim table.
+ $Id$ BillingDecisionsConfiguration.sql
+     Warning: column EnabledFlag already exists in BillingDecisionsConfiguration table.
+Warning: column BillingJob.EnabledFlag already have a default value.
+Warning: column BillingJobParameter.RequiredFlag already have a default value.
+     Column Category of the table BillingRule already exists.
+     Column TableName of the table BillingRule already exists.
+     Column DefaultDateValue of the table BillingRule already exists.
+ $Id$ Branch.sql
+     Warning: column NHDiscriminator already exists in Branch table.
+ $Id$ BranchSubSystem.sql
+     Column City of the table BranchSubSystem has already a maximum length of 40 characters. Column was not altered.
+ $Id$ Image.sql
+     Warning: column NHDiscriminator already exists in Cancellation table.
+ $Id$ CardPlan.sql
+     Warning: column NHDiscriminator already exists in  CardPlan
+           table.
+     Warning: column CardEndorsementSpreadMinimumDays already exists in  CardPlan
+           table.
+ $Id$ CardType.sql
+     Warning: column NHDiscriminator already exists in  CardType
+           table.
+     Column PayeeCity of the table CashDisbursement has already a maximum length of 40 characters. Column was not altered.
+     Column MailToCity of the table CashDisbursement has already a maximum length of 40 characters. Column was not altered.
+PayeeAddress1 is already varchar(90)
+PayeeAddress2 is already varchar(90)
+MailToAddress1 is already varchar(90)
+MailToAddress2 is already varchar(90)
+Warning: column EntityAccountID already exists in CashDisbursement table.
+Warning: column EntityBillSubSystemCode already exists in CashDisbursement table.
+Warning: column EntityBillTransactionAccountCode already exists in CashDisbursement table.
+Warning: column EntityBillTransactionTypeCode already exists in CashDisbursement table.
+Warning: column CurrencyCode already exists in CashDisbursement table.
+CurrencyCode column is already defaulted
+Warning: column PayeeEntityAccountID already exists in CashDisbursement table.
+Warning: column MailToEntityAccountID already exists in CashDisbursement table.
+        Column WritingCompanyCode is added to CashDisbursement table.
+Warning: column CashReceiptPayDedSuspenseNum already exists in CashDisbursementPolicy table.
+     Warning: column ReversalSourceCode already exists in CashReceipt table.
+     Column DbNsfCancelNoticeDrStepSelectedYN was altered on the CashReceipt table.
+Warning: column EntityAccountID already exists in CashReceipt table.
+Warning: column EntityBillSubSystemCode already exists in CashReceipt table.
+Warning: column EntityBillTransactionAccountCode already exists in CashReceipt table.
+Warning: column EntityBillTransactionTypeCode already exists in CashReceipt table.
+Warning: column CurrencyCode already exists in CashReceipt table.
+CurrencyCode column is already defaulted
+        Column WritingCompanyCode is added to CashReceipt table.
+ $Id$ CashReceiptAccount.sql
+     Warning: column NHDiscriminator already exists in CashReceiptAccount table.
+     Warning: column ExportedYN already exists in CashReceiptAccount table.
+     Warning: column ExportedReverseYN already exists in CashReceiptAccount table.
+Warning: column CashReceiptAccount.ExportedYN already have a default value.
+Warning: column CashReceiptAccount.ExportedReverseYN already have a default value.
+ $Id$ CashReceiptAgencyRealloc.sql
+     Warning: column NHDiscriminator already exists in CashReceiptAgencyRealloc table.
+ $Id$ CashReceiptAgencySuspense.sql
+     Warning: column NHDiscriminator already exists in CashReceiptAgencySuspense table.
+ $Id$ CashReceiptBatch.sql
+     Warning: column NHDiscriminator already exists in  CashReceiptBatch
+           table.
+ $Id$ CashReceiptEntityRealloc.sql
+     Warning: column PolicyMasterID already exists in CashReceiptEntityRealloc table.
+ $Id$ CashReceiptEntitySuspense.sql
+Update Logic Here
+ $Id$ CashReceiptMgaCommissionSuspense.sql
+ $Id$ CashReceiptPayDedRealloc.sql
+     Warning: column PolicyNo already exists in CashReceiptPayDedRealloc table.
+     Warning: column NHDiscriminator already exists in CashReceiptPayDedRealloc table.
+ $Id$ CashReceiptPayDedSuspense.sql
+     Warning: column NHDiscriminator already exists in CashReceiptPayDedSuspense table.
+     Warning: column CashSuspenseCode already exists in CashReceiptPayDedSuspense table.
+Warning: column CashReceiptPayDedSuspense.RefundedYN already have a default value.
+Warning: column CashReceiptPayDedSuspense.ReversePostYN already have a default value.
+ $Id$ CashReceiptPaymentSource.sql
+Update Logic Here
+Warning: column CashReceiptPaymentSource.IsDefaultFlag already have a default value.
+     Warning: column CashReceiptPolicyParentId already exists in CashReceiptPolicy table.
+ $Id$ CashReceiptReversalSource.sql
+Update Logic Here
+Warning: column CashReceiptReversalSource.IsDefaultFlag already have a default value.
+ $Id$ CashSuspense.sql
+     Warning: column NHDiscriminator already exists in CashSuspense table.
+ $Id$ CheckBatch.sql
+     Warning: column NHDiscriminator already exists in CheckBatch table.
+ $Id$ ClaimsDecisionsExport.sql
+     Column PayorCity of the table ClaimsDecisionsExport has already a maximum length of 40 characters. Column was not altered.
+ $Id$ Client.sql
+     Column City of the table Client has already a maximum length of 40 characters. Column was not altered.
+ $Id$ CollectionAgentTransfer.sql
+     Warning: column NHDiscriminator already exists in CollectionAgentTransfer table.
+     Column City of the table Company has already a maximum length of 40 characters. Column was not altered.
+     Warning: column CheckRemittanceAddress already exists in Company table.
+     Warning: column WireInstructionsAddress already exists in Company table.
+     Warning: column OvernightMailingAddress already exists in Company table.
+Warning: column CurrencyCode already exists in Company table.
+Warning: column AgentStatementPeriodGroupCode already exists in Company table.
+CurrencyCode column is already defaulted
+ $Id$ CompanyAccountingPeriod.sql
+     Warning: column EBPeriodClosedYN already exists in CompanyAccountingPeriod table.
+ $Id$ CorrespondenceDelivery.sql
+     Warning: column QueueManager already exists in CorrespondenceDelivery table.
+ $Id$ CorrespondenceEvent.sql
+     Warning: column NHDiscriminator already exists in CorrespondenceEvent table.
+ $Id$ CorrespondenceMonitor.sql
+Update Logic Here
+ $Id$ CorrespondenceMonitorMessage.sql
+Update Logic Here
+ $Id$ CorrespondenceNotifyControl.sql
+     Warning: column NHDiscriminator already exists in CorrespondenceNotifyControl table.
+ $Id$ CorrespondenceQueue.sql
+     Warning: column AutoResubmitCount already exists in CorrespondenceQueue table.
+     Warning: column MergeXml already exists in CorrespondenceQueue table.
+     Warning: column FormXBatchId already exists in CorrespondenceQueue table.
+     Warning: column MergeRequestPublished already exists in CorrespondenceQueue table.
+     Warning: column DeliveryRequestPublished already exists in CorrespondenceQueue table.
+     Warning: column ExternalPrintRequestPublished already exists in CorrespondenceQueue table.
+     Warning: column AccountNumber already exists in CorrespondenceQueue table.
+ErrorDescription is already varchar(max)
+MSWordFileName is already varchar(200)
+MSWordFileName2 is already varchar(200)
+Warning: column CorrespondenceQueue.AutoResubmitCount already have a default value.
+Warning: column CorrespondenceQueue.MergeRequestPublished already have a default value.
+Warning: column CorrespondenceQueue.DeliveryRequestPublished already have a default value.
+Warning: column CorrespondenceQueue.ExternalPrintRequestPublished already have a default value.
+     Warning: column CurrencyCode already exists in Country table.
+CurrencyCode column is already defaulted
+ $Id$ CoverageCode.sql
+     Warning: column NHDiscriminator already exists in CoverageCode table.
+ $Id$ CreditCardFile.sql
+     Warning: column NHDiscriminator already exists in CreditCardFile
+           table.
+ $Id$ DailyRunDBLog.sql
+     Warning: column EntityAccountId already exists in DailyRunDBLog table.
+ $Id$ DailyRunSetup.sql
+     Warning: column UseDomainStepFlag already exists in DailyRunSetup table.
+ $Id$ DeductibleAccount.sql
+     Column MailingCity of the table DeductibleAccount has already a maximum length of 40 characters. Column was not altered.
+     Column AccountName2 of the table DeductibleAccount already exists.Column was not altered.
+ $Id$ DeductibleRecoveryAr.sql
+     Warning: column NHDiscriminator already exists in DeductibleRecoveryAr table.
+ $Id$ DeductibleRecoveryArAlloc.sql
+     Warning: column NHDiscriminator already exists in DeductibleRecoveryArAlloc table.
+ $Id$ DirectBillAR.sql
+     Warning: column ExportedYN already exists in DirectBillAR table.
+     Warning: column ExportedDate already exists in DirectBillAR table.
+     Warning: column ExportedReverseYN already exists in DirectBillAR table.
+     Warning: column ExportedReverseDate already exists in DirectBillAR table.
+     Warning: column BypassExportYN already exists in DirectBillAR table.
+ $Id$ DirectBillARAlloc.sql
+     Warning: column NHDiscriminator already exists in DirectBillARAlloc table.
+ $Id$ DirectBillInterface.sql
+     Warning: column MessageNum already exists in DirectBillInterface table.
+     Warning: column ServiceBusId already exists in DirectBillInterface table.
+     Warning: column TransactionCurrencyCode already exists in DirectBillInterface table.
+     Warning: column PaymentCurrencyCode already exists in DirectBillInterface table.
+ $Id$ DirectBillInterfaceDetail.sql
+     Warning: column BillImmediateYN already exists in DirectBillInterfaceDetail table.
+ $Id$ DisbursementExport.sql
+     Column PayeeCity of the table DisbursementExport has already a maximum length of 40 characters. Column was not altered.
+     Column CheckDate of the table DisbursementExport has already a maximum length of 8 characters. Column was not altered.
+     Column PolicyNo of the table DisbursementExport already exists.
+ $Id$ DocumentType.sql
+     Warning: column NHDiscriminator already exists in DocumentType table.
+ $Id$ DR_ImportImage.sql
+     Column ClaimantCity of the table DR_ImportImage has already a maximum length of 40 characters. Column was not altered.
+ EFTPlanDiscount.sql
+     Warning: column NHDiscriminator already exists in EFTPlanDiscount table.
+ $Id$ Entity.sql
+ $Id$ Entity.sql
+     Column City of the table Entity has already a maximum length of 40 characters. Column was not altered.
+     Column StatementCity of the table Entity has already a maximum length of 40 characters. Column was not altered.
+Column EntityBillEntityID was already removed.
+     Warning: column LastStatementDeductAmt already exists in Entity table.
+     Warning: column CompanyCode already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column CorrespondenceEventCode already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column FormCode already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column NotifyDestinationInd already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column AddedDateT already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column AddedUserCode already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column LastUpdatedDateT already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column LastUpdatedUserCode already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column EntityTypeCode already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column ShowOnPolicyActivityYN already exists in EntityAccountCorrespondenceEvents table.
+     Warning: column NHDiscriminator already exists in EntityAccountCorrespondenceEvents table.
+ $Id$ EntityAccountFees.sql
+     Warning: column InvoiceToDueDateDays already exists in EntityAccountInfo table.
+     Warning: column MinInvoiceAmt already exists in EntityAccountInfo table.
+     Warning: column CurrencyCode already exists in EntityAccountInfo table.
+     Warning: column PushInvoiceDateYN already exists in EntityAccountInfo table.
+     Warning: column ParentEntityAccountID already exists in EntityAccountInfo table.
+     Warning: column InvoiceToDueDateDays already exists in EntityAccountInfo table.
+     Warning: column MinDaysBeforeInvoiceDueDate already exists in EntityAccountInfo table.
+     Warning: column CreditEnrollmentKey already exists in EntityAccountPaymentMethod table.
+     Warning: column DebitEnrollmentKey already exists in EntityAccountPaymentMethod table.
+     Warning: column NickName already exists in EntityAccountPaymentMethod table.
+     Warning: column CardNumber already exists in EntityAccountPaymentMethod table.
+     Warning: column BillingZip already exists in EntityAccountPaymentMethod table.
+     Warning: column CardBrand already exists in EntityAccountPaymentMethod table.
+     Warning: column CardExpirationMonth already exists in EntityAccountPaymentMethod table.
+     Warning: column CardExpirationYear already exists in EntityAccountPaymentMethod table.
+     Warning: column AuthorizationCode already exists in EntityAccountPaymentMethod table.
+     Warning: column AuthorizationDate already exists in EntityAccountPaymentMethod table.
+     Column EnterpriseEntityId was already removed.
+Column EntityBillEntityId was already removed.
+     Warning: column EntityAccountID already exists in EntityBillAR table.
+Warning: column EntityAccountID already exists in EntityBillARAlloc table.
+     Warning: column CashReceiptEntityReallocID already exists in EntityBillARAlloc table.
+     Warning: column CashDisbursementNum already exists in EntityBillARAlloc table.
+     Warning: column FormSuspenseYN already exists in EntityBillARAlloc table.
+     Warning: column CashReceiptEntitySuspenseID already exists in EntityBillARAlloc table.
+     Warning: column PolicyMasterID already exists in EntityBillInterface table.
+     Warning: column ExternalEntityAccountID already exists in EntityBillInterface table.
+     Warning: column TransactionCurrencyCode already exists in EntityBillInterface table.
+     Warning: column PaymentCurrencyCode already exists in EntityBillInterface table.
+     Warning: column MessageNum already exists in EntityBillInterface table.
+     Warning: column ServiceBusId already exists in EntityBillInterface table.
+ $Id$ EntityCertificate.sql
+     Warning: column NHDiscriminator already exists in EntityCertificate table.
+ $Id$ EntityCertificatePolicy.sql
+     Warning: column NHDiscriminator already exists in EntityCertificatePolicy table.
+ $Id$ EntityHistory.sql
+     Warning: column NHDiscriminator already exists in EntityHistory table.
+     Column City of the table EntityHistory has already a maximum length of 40 characters. Column was not altered.
+     Column StatementCity of the table EntityHistory has already a maximum length of 40 characters. Column was not altered.
+ $Id$ EntityRelationship.sql
+     Warning: column NHDiscriminator already exists in EntityRelationship table.
+ $Id$ EntityRole.sql
+     Warning: column NHDiscriminator already exists in EntityRole table.
+ $Id$ Export1099Detail.sql
+     Column City of the table Export1099Detail has already a maximum length of 40 characters. Column was not altered.
+ $Id$ ExternalInterface.sql
+     Warning: column NHDiscriminator already exists in ExternalInterface table.
+     Warning: column CashReceiptNum already exists in ExternalInterface table.
+ $Id$ ExternalInterfaceDetail.sql
+     Warning: column NHDiscriminator already exists in ExternalInterfaceDetail table.
+     Warning: column DirectBillARNum already exists in ExternalInterfaceDetail table.
+     Warning: column AgentCode already exists in ExternalInterfaceDetail table.
+     Warning: column EntityAccountId already exists in ExternalInterfaceDetail table.
+ $Id$ ExternalInterfaceType.sql
+     Warning: column NHDiscriminator already exists in ExternalInterfaceType table.
+ $Id$ ExternalPolicySource.sql
+Update Logic Here
+Warning: column ExternalPolicySource.ServiceBusEnabledFlag already have a default value.
+Warning: column ExternalPolicySource.DefaultFlag already have a default value.
+ $Id$ Form.sql
+     Warning: column  UseDomainServiceYN already exists in Form table.
+     Warning: column  XMLFileDataXSLT already exists in Form table.
+     Warning: column ExternalPrintProvider already exists in Form table.
+     Warning: column FormMailingPageID already exists in Form table.
+MSWordFileName is already varchar(200)
+MSWordFileName2 is already varchar(200)
+     Warning: column MediaType already exists in Form table.
+Warning: column Form.ReturnEnvelopeYN already have a default value.
+Warning: column Form.UseDomainServiceYN already have a default value.
+ $Id$ FormMailingPage.sql
+     Column Update Logic.
+ $Id$ FormOverlay.sql
+name                                                                                                                             id          xtype uid    info   status      base_schema_ver replinfo    parent_obj  crdate                  ftcatid schema_ver  stats_schema_ver type userstat sysstat indexdel refdate                 version     deltrig     instrig     updtrig     seltrig     category    cache 
+-------------------------------------------------------------------------------------------------------------------------------- ----------- ----- ------ ------ ----------- --------------- ----------- ----------- ----------------------- ------- ----------- ---------------- ---- -------- ------- -------- ----------------------- ----------- ----------- ----------- ----------- ----------- ----------- ------
+FK_FormOvr_Form                                                                                                                   1800198009 F          1      0           0               0           0  1768197895 2012-10-26 15:48:17.780       0           0                0 F           0      11        0 2012-10-26 15:48:17.780           0           0           0           0           0           0      0
+
+(1 rows affected)
+     Column Update Logic.
+     Warning: column NHDiscriminator already exists in FormOverlay table.
+ $Id$ Image.sql
+     Warning: column NHDiscriminator already exists in Image table.
+Warning: column EntityAccountID already exists in Image table.
+ $Id$ ImagePage.sql
+     Warning: column NHDiscriminator already exists in ImagePage table.
+     Warning: column imageFileName already changed to varchar(255).
+ $Id$ Installment.sql
+     Warning: column FirstInvAfterDefYN already exists in Installment table.
+     Warning: column InsCreatedFromRevisionYN already exists in Installment table.
+     Warning: column InstallmentScheduleID already exists in Installment table.
+     Warning: column TransactionGrossPremiumAmt already exists in Installment table.
+     Warning: column TransactionTFSAmt already exists in Installment table.
+     Warning: column TotalGrossPremiumAmt already exists in Installment table.
+     Warning: column TotalTFSAmt already exists in Installment table.
+     Column City of the table InsuredName has already a maximum length of 40 characters. Column was not altered.
+ $Id$ JobTitle.sql
+     Warning: column NHDiscriminator already exists in JobTitle table.
+ $Id$ LegalStructure.sql
+     Warning: column NHDiscriminator already exists in LegalStructure table.
+ $Id$ LegalStructureCategory.sql
+     Warning: column NHDiscriminator already exists in LegalStructureCategory table.
+ $Id$ LockBoxFile.sql
+     Warning: column NHDiscriminator already exists in LockBoxFiletable.
+ $Id$ LockBoxFileAccountBill.sql
+     Warning: column NHDiscriminator already exists in LockBoxFileAccountBill table.
+     Warning: column UniqueKey already exists in LockBoxFileAccountBill table.
+ $Id$ ManualEntryPolicy.sql
+     Column City of the table ManualEntryPolicy has already a maximum length of 40 characters. Column was not altered.
+     Column AccountCity of the table ManualEntryPolicy has already a maximum length of 40 characters. Column was not altered.
+     Warning: column AffinityAccountCode already exists in ManualEntryPolicy table.
+     Warning: column CurrencyCode already exists in ManualEntryPolicy table.
+CurrencyCode column is already defaulted
+ $Id$ ManualEntryPolicyDetail.sql
+     Warning: column NHDiscriminator already exists in  ManualEntryPolicyDetail
+           table.
+Table dbo.ManualRescind Exists.
+     Warning: column RescindedYN already exists in ManualRescind table.
+ $Id$ MessageQueue.sql
+     Warning: column SourceBackEndSequenceNumber already exists in MessageQueue
+           table.
+     Warning: column WCFFlag already exists in MessageQueue
+           table.
+     Warning: column PolicyTransactionProcessedFlag already exists in MessageQueue
+           table.
+     Warning: column TransactionCurrencyCode already exists in MessageQueue
+           table.
+     Warning: column PaymentCurrencyCode already exists in MessageQueue
+           table.
+ $Id$ MonolineProduct.sql
+     Column AllocationOrderNo of the table MonolineProduct already exists.
+     Column FeeAssessmentOrder of the table MonolineProduct already exists.
+ $Id$ dbo.MonthlyRunAB.sql
+ $Id$ MonthlyRunDB.sql
+ $Id$ NetGenericLookup.sql
+     Warning: column NHDiscriminator already exists in NetGenericLookup table.
+ $Id$ NonRenewal.sql
+     Warning: column NHDiscriminator already exists in NonRenewal table.
+ $Id$ PaymentFileImport.sql
+     Warning: column NHDiscriminator already exists in PaymentFileImport table.
+ $Id$ PaymentFileImportLog.sql
+     Warning: column NHDiscriminator already exists in PaymentFileImportLog table.
+ $Id$ PayPlan.sql
+     Warning: column EntityBillYN already exists in PayPlan table.
+     Warning: column PayPlanTypeInd already exists in PayPlan table.
+ $Id$ PayPlanSchedule.sql
+     Warning: column FirstInstallmentPct already exists in PayPlanSchedule table.
+     Warning: column FirstInstallmentDueDays already exists in PayPlanSchedule table.
+     Warning: column LastInstallmentDueDays already exists in PayPlanSchedule table.
+ $Id$ PayPlanSelection.sql
+     Warning: column NHDiscriminator already exists in PayPlanSelection table.
+ $Id$ Entity.sql
+     Column ScheduleCode of the table PayrollCycle already exists.
+     Column PayrollServiceFeeType of the table PayrollCycle already exists.
+     Column PayrollServiceFeeSource of the table PayrollCycle already exists.
+     Column PayrollServiceFeePCSIndicator of the table PayrollCycle already exists.
+     Column CombineWritingCompanyOnSingleStatementYN of the table PayrollCycle already exists.
+ $Id$ Policy.sql
+     Warning: column SourceBackEndSequenceNumber already exists in Policy
+           table.
+     Warning: column SourceRqUID already exists in Policy
+           table.
+     Warning: column SourceCorrelationRqUID already exists in Policy
+           table.
+     Warning: column SourcePolicyAlternateTransactionType already exists in Policy
+           table.
+     Warning: column SourcePolicyOriginalTransactionType already exists in Policy
+           table.
+     Warning: column CancellationStateCode already exists in Policy table.
+     Column InvoiceGroupCode was added to Policy table.
+     Column ExternalFacilityCode was added to Policy table.
+     Column ExternalDivisionCode was added to Policy table.
+     Column ExternalCmipsYN was added to Policy table.
+     Column ExternalGlsDistributionCode was added to Policy table.
+     Column ExternalPolicyGroupCode was added to Policy table.
+ $Id$ PolicyControl.sql
+     Warning: column RenewalStatusDate already exists in PolicyControl table.
+     Warning: column ReportingDecisionsEquityDate already exists in PolicyControl table.
+     Warning: column ExternalPolicySourceCode already exists in PolicyControl table.
+     Warning: column PolicyMasterID already exists in PolicyControl table.
+     Warning: column EntityAccountID already exists in PolicyControl table.
+     Warning: column BillPremAfterFinalAuditYN already exists in PolicyControl table.
+	 Warning: column CurrencyCode already exists in PolicyControl table.
+CurrencyCode column is already defaulted
+     Warning: column DisableEBInvoicingToAltPayorYN already exists in PolicyControl table.
+	 Warning: column PayInFullAmount already exists in PolicyControl table.
+        Column DomesticLocalInd is added to PolicyControl table.
+        Column RiskNonRiskInd  is added to PolicyControl table.
+        Column ExternalPolicyGroup  is added to PolicyControl table.
+        Column ConversionYN is added to PolicyControl table.
+     Column PayrollCycleDeductionAmount was added to PolicyControl table.
+ $Id$ PolicyControlHistory.sql
+     Warning: column BillPremAfterFinalAuditYN already exists in PolicyControlHistory table.
+ $Id$ PolicyEntity.sql
+     Warning: column NHDiscriminator already exists in PolicyEntity table.
+ $Id$ PolicyFileImport.sql
+     Warning: column NHDiscriminator already exists in PolicyFileImport table.
+ $Id$ PolicyFileImportLog.sql
+     Warning: column NHDiscriminator already exists in PolicyFileImportLog table.
+ $Id$ PolicyForm.sql
+     Warning: column NHDiscriminator already exists in PolicyForm table.
+ $Id$ PolicyFormDelivery.sql
+     Warning: column NHDiscriminator already exists in PolicyFormDelivery table.
+ $Id$ PolicyInterface.sql
+Update Logic Here
+Warning: column EntityAccountID already exists in PolicyJournal table.
+ $Id$ PolicyLocation.sql
+     Warning: column NHDiscriminator already exists in PolicyLocation table.
+     Column City of the table PolicyLocation has already a maximum length of 40 characters. Column was not altered.
+     Warning: column PriorPolicyNo already exists in PolicyMaster table.
+     Warning: column PriorCompanyCode already exists in PolicyMaster table.
+     Warning: column PriorProgramCode already exists in PolicyMaster table.
+     Warning: column [PriorTermEffDate] already exists in PolicyMaster table.
+     Warning: column [SubsequenceRecordYN] already exists in PolicyMaster table.
+ $Id$ PolicyPaymentMethod.sql
+     Column BankAccountBranchAddressCity of the table PolicyPaymentMethod has already a maximum length of 40 characters. Column was not altered.
+ $Id$ PolicyTerm.sql
+     Warning: column NHDiscriminator already exists in PolicyTerm table.
+ $Id$ PolicyTermRule.sql
+     Warning: column NHDiscriminator already exists in PolicyTermRule table.
+ $Id$ PolicyUnit.sql
+     Warning: column NHDiscriminator already exists in  PolicyUnit
+           table.
+	 Warning: column DataFilter already exists in PolPrintTable table.
+	 Warning: column DeleteFilter already exists in PolPrintTable table.
+	 Warning: column DeleteYN already exists in PolPrintTable table.
+ $Id$ Prefix.sql
+     Warning: column NHDiscriminator already exists in Prefix table.
+ $Id$ PrintAndMailRequestCommonFields.sql
+     Column Header_MailtoInfo_Address_City of the table PrintAndMailRequestCommonFields has already a maximum length of 40 characters. Column was not altered.
+     Warning: column NHDiscriminator already exists in ProcessControl table.
+     Warning: column DNAExportYN already exists in ProcessControl table.
+     Warning: column CollectionExportYN already exists in ProcessControl table.
+     Warning: column DBPaymentExportYN already exists in ProcessControl table.
+     Warning: column DBGLExportYN already exists in ProcessControl table.
+     Warning: column ABPaymentImportYN already exists in ProcessControl table.
+     Warning: column DBPaymentImportYN already exists in ProcessControl table.
+     Warning: column RDEquityDateUpdateYN already exists in ProcessControl table.
+     Warning: column PolicyTransactionImportManagerDateT already exists in ProcessControl table.
+     Warning: Primary Key on ProcessControl already exists.
+     Warning: column EntityBillPolicyImportYN already exists in ProcessControl table.
+     Warning: column EntityBillInterfaceYN already exists in ProcessControl table.
+     Warning: column CheckDisbursementExportYN already exists in ProcessControl table.
+     Warning: column CheckDisbursementImportYN already exists in ProcessControl table.
+     Warning: column CancelledPolicyExportYN already exists in ProcessControl table.
+ $Id$ ProductRelation.sql
+     Warning: column NHDiscriminator already exists in ProductRelation table.
+ $Id$ Program.sql
+     Warning: column NHDiscriminator already exists in Program table.
+ $Id$ ProgramCompanyState.sql
+Warning: column ProgramCompanyState.AccChrgAdjYN already have default value.
+     Column PayrollServiceFeeAmount of the table ProgramCompanyState already exists.
+     Column PayrollServiceFeeSurchargeYN of the table ProgramCompanyState already exists.
+     Column PayrollServiceFeeSurchargePercent of the table ProgramCompanyState already exists.
+     Column PayrollServiceFeeSurchargeTransactionAccountCode of the table ProgramCompanyState already exists.
+     Column PayrollServiceFeeSurchargeTransactionTypeCode of the table ProgramCompanyState already exists.
+     Column PayrollServiceFeeSubSystemCode of the table ProgramCompanyState already exists.
+ $Id$ RecurringCardProcess.sql
+     Warning: column NHDiscriminator already exists in RecurringCardProcess table.
+     Warning: column CashReceiptNum already exists in RecurringCardProcess table.
+ $Id$ Reinstatement.sql
+     Warning: column NHDiscriminator already exists in Reinstatement table.
+ $Id$ ServiceBus.sql
+     Warning: column CorrelationId already exists in ServiceBus table.
+     Warning: column SagaStart already exists in ServiceBus table.
+     Warning: column SagaComplete already exists in ServiceBus table.
+     Warning: column Unpublished already exists in ServiceBus table.
+MessageStatusDesc is already varchar(max)
+PublishedMesssage is already varchar(max)
+Warning: column ServiceBus.SagaStart already have a default value.
+Warning: column ServiceBus.SagaComplete already have a default value.
+     Warning: column ExternalXml already exists in ServiceBus table.
+ $Id$ ServiceBusMessage.sql
+     Warning: column NHDiscriminator already exists in ServiceBusMessage table.
+     Warning: column DetailYN already exists in ServiceBusMessage table.
+     Warning: column WaitForResponseYN already exists in ServiceBusMessage table.
+     Warning: column AutomaticRepublishYN already exists in ServiceBusMessage table.
+     Warning: column PublishSortOrder already exists in ServiceBusMessage table.
+Warning: column ServiceBusMessage.DetailYN already have default value.
+ $Id$ ServiceBusPolicyTransactionDetail.sql
+ $Id$ State.sql
+     Warning: column StateRegionCode already exists in State table.
+     Warning: column DisplayYN already exists in State table.
+ $Id$ Suffix.sql
+     Warning: column NHDiscriminator already exists in Suffix table.
+ $Id$ SystemSettings.sql
+     Warning: column PaymentForExportFunction already exists in SystemSettings table.
+     Warning: column DefaultReadyToReleaseYN already exists in SystemSettings table.
+     Warning: column ExternalPrintDirectory already exists in SystemSettings table.
+     Warning: column PreProcessorXsltName already exists in SystemSettings table.
+     Warning: column PolicyToBillingXsltName already exists in SystemSettings table.
+      Warning: column ManualRescindCommentsRequiredYN already exists in SystemSettings table.
+Warning: column SystemSettings.RCCUseOriginalDueDateYN already have a default value.
+Warning: column SystemSettings.ServiceBusEnabledYN already have a default value.
+Warning: column SystemSettings.DefaultReadyToReleaseYN already have a default value.
+     Warning: column UpdateCancellationEffectiveDateYN already exists in SystemSettings table.
+Warning: column SystemSettings.UpdateCancellationEffectiveDateYN already have a default value.
+ $Id$ TempCardProcess.sql
+     Warning: column ApplyInsFeeYN already exists in TempCardProcess table.
+     Column DeferredBillingYN of the table TempDBInvoice was not added.
+ $Id$ TempDBPrintAndMailRequest.sql
+     Column Header_MailtoInfo_Address_City of the table TempDBPrintAndMailRequest has already a maximum length of 40 characters. Column was not altered.
+     Column Header_ReturnMailtoInfo_Address_City of the table TempDBPrintAndMailRequest has already a maximum length of 40 characters. Column was not altered.
+     Column DocumentFields_PolicyInfo_InsuredEntity_Address_City of the table TempDBPrintAndMailRequest has already a maximum length of 40 characters. Column was not altered.
+     Column DocumentFields_AgentInfo_Address_City of the table TempDBPrintAndMailRequest has already a maximum length of 40 characters. Column was not altered.
+     Column DocumentFields_InsuranceCompanyInfo_Address_City of the table TempDBPrintAndMailRequest has already a maximum length of 40 characters. Column was not altered.
+<<< Successfully created table TempDBSPolicyStage. >>>
+ $Id$ TFS.sql
+     Warning: column BillingType  already exists in TFS table.
+ $Id$ TransactionType.sql
+Warning: column TransactionType.SwitchToManualYN already have default value.
+     Warning: column ExcludeFromCollectionExportYN  already exists in TransactionType table.
+     Column City of the table Zip has already a maximum length of 40 characters. Column was not altered.
+ $Id: CalculateEquityDateCustom_AIN.sql 5921 2009-10-01 13:57:34Z eugs001 $
+ $Id: CalculateEquityDateCustom_AIU.sql 7184 2010-04-07 20:00:46Z eudc001 $
+ $Id: CalculateEquityDateCustom_AIU_WAC.sql 4295 2009-04-22 22:09:01Z eucxp25 $
+<<< CREATED FUNCTION CalculateEquityDateCustom_AIU_WAP>>>
+<<< CREATED FUNCTION dbo.fAgencyBillAging >>>
+ $Id: fAgentCommission.sql 3498 2009-02-23 21:53:46Z eudb008 $
+ $Id: fDeductibleRecoveryARAging.sql 5283 2009-08-11 18:53:29Z eueb004 $
+ $Id: fnCalcPayrollDeductionAmount.sql $
+ $Id: fnCalculateCurrentBalanceForRenewalBill.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id
+ $Id
+ $Id: fnCalculatePremiumAdjustmentsForRenewalBill.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id
+ $Id
+ $Id
+Dropping function fnConvertBDImportAmountToNumeric...
+Successfully created function fnConvertBDImportAmountToNumeric.
+ $Id: fnGetActiveTransactionNumberforPolicyEntity.sql 7254 2010-04-16 21:12:36Z eust001 $
+<<< CREATED FUNCTION fnGetAgentInformationForMerge >>>
+ $Id: fnGetcancelNoticeAmount.sql 
+ $Id$
+ $Id: fnGetControlTransactionTotal.sql 3297 2009-02-03 16:33:48Z eudb008 $
+<<< DROPPED PROC fnGetControlTransactionTotal >>>
+<<< CREATED PROC fnGetControlTransactionTotal >>>
+<<< EXECUTE PERMISSION GRANTED ON GetPayMasterDisbursementTransaction TO pasAdmin , GARUSERS >>>
+ $Id: fnGetCurrentBalance.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id: fnGetCurrentBalanceForInsRenewalPremium.sql 3188 2009-01-22 23:56:15Z euc9w19 $
+ $Id$
+ $Id
+<<< CREATED FUNCTION fnGetEntityInformationForMerge >>>
+ $Id$
+ $Id: fnGetEquityPolicyAmounts.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id$
+ $Id$
+ $Id: fnGetFees_BASE.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnGetFees_BASE >>>
+ $Id: fnGetMailToDetails.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+Successfully Created
+ $Id$
+ $Id: fnGetInstallmentFee.sql 6484 2009-12-07 21:27:21Z eusd003 $
+ $Id: fnGetInstallmentFee_KFIT.sql 3714 2009-03-17 21:03:00Z eust001 $
+ $Id: fnGetLateFee.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id: fnGetLateFeeForFAQ.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id: fnGetLateFeeForRenewalBill.sql 3732 2009-03-17 22:07:22Z eust001 $
+ $Id: fnGetLateFee_BASE.sql 7030 2010-03-11 15:32:34Z eupk005 $
+<<< CREATED FUNCTION fnGetLateFee_BASE >>>
+ $Id: fnGetMinimumPaymentDue.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnGetNSFFee_BASE >>>
+ $Id: fnGetPaymentDetail_BASE.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnGetPaymentDetail_BASE >>>
+ $Id$
+ $Id$
+ $Id: fnGetPaymentsReceivedForRenewalBill.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnGetPaymentsReceived_BASE >>>
+ $Id
+ $Id
+ $Id
+ $Id
+ $Id
+ $Id: fnGetPolicyTotalAmountDue.sql$
+ $Id
+ $Id
+ $Id$
+ $Id: fnGetPremiumAdjustments.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnGetPremiumAdjustments_BASE >>>
+ $Id: fnGetPreviousBalance.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id$
+ $Id: fnGetPreviousBalanceForRenewalBill.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnGetPriorBalance_BASE >>>
+ $Id: fnGetReinstatementFee.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id: fnGetReinstatementFee_BASE.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnGetReinstatementFee_BASE >>>
+ $Id: fnGetRenewalBalanceForm79.sql 3188 2009-01-22 23:56:15Z euc9w19 $
+ $Id: fnGetRenewalPremiumForRenewalBill.sql 3188 2009-01-22 23:56:15Z euc9w19 $
+ $Id: fnGetRenewalQuoteDueAmt.sql 3197 2009-01-23 23:03:09Z euc9w19 $
+ $Id
+ $Id
+ $Id
+ $Id: fnOrdinalDateSuffix.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fnOrdinalDateSuffix >>>
+ $Id: fnVerifyNSFReinstatement.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+ $Id: fn_NSFInfoByCashReceipt.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< CREATED FUNCTION fn_NSFInfoByCashReceipt >>>
+ $Id: GetPolicyCurrentAmountDueforBillingInquiry.sql 3686 2009-03-15 19:08:02Z eubo117 $
+ $Id: GetPolicyTotalAmountDueforBillingInquiry.sql 3699 2009-03-16 18:23:20Z eubo117 $
+ $Id: [IsDifferBillingState].sql 4$
+<<< DROPPED PROC RepFnAgencyStatementCurrentActivity >>>
+<<< CREATED FUNCTION RepFnAgencyStatementCurrentActivity >>>
+<<< CREATED FUNCTION RepFnAgencyStatementCurrentDue >>>
+<<< CREATED FUNCTION RepFnAgencyStatementFutureApplied >>>
+<<< Successfully created function RepFnAgencyStatementPastDueFS. >>>
+ $Id: RepFnAgencyStatementUnapplied.sql 3188 2009-01-22 23:56:15Z euc9w19 $
+<<< CREATED FUNCTION RepFnAgencyStatementUnapplied >>>
+ $Id$
+ $Id$
+<<< DROPPED VIEW ExternalPrintDoc >>>
+<<< CREATED VIEW ExternalPrintDoc >>>
+ $Id$
+<<< DROPPED VIEW RepLockBox >>>
+<<< CREATED VIEW RepLockBox >>>
+ $Id$
+<<< CREATED VIEW RepProcessedCashReceiptDetail >>>
+ $Id$
+<<< DROPPED VIEW RepProofOfMailing >>>
+<<< CREATED VIEW RepProofOfMailing >>>
+<<< DROPPED VIEW vAgencyBillAging >>>
+<<< CREATED VIEW vAgencyBillAging >>>
+ $Id: ViewAccountSuspense.sql 3301 2009-02-03 20:15:12Z eusb013 $
+<<< DROPPED VIEW ViewAccountSuspense >>>
+<<< CREATED VIEW ViewAccountSuspense >>>
+<<< DROPPED VIEW dbo.ViewAgencyBillInstallments >>>
+<<< CREATED VIEW dbo.ViewAgencyBillInstallments >>>
+<<< DROPPED VIEW dbo.ViewAgencyBillInstallmentsTemp >>>
+<<< CREATED VIEW dbo.ViewAgencyBillInstallmentsTemp >>>
+<<< Successfully created view ViewBillingInquiry. >>>
+<<< CREATED VIEW ViewBillingReportFields >>>
+ $Id$
+<<< DROPPED VIEW ViewCreditCardFileHistory >>>
+<<< CREATED VIEW ViewCreditCardFileHistory >>>
+ $Id:  ViewInsuredNameSearch.sql  2010-04-14 19:15:00 EUPM007 $
+<<< CREATED VIEW v >>>
+<<< CREATED VIEW ViewMessageQueueInvalid >>>
+ $Id$
+<<< DROPPED VIEW ViewPolicyActivity >>>
+<<< CREATED VIEW ViewPolicyActivity >>>
+ $Id$
+<<< DROPPED VIEW ViewPolicyActivityAccount >>>
+<<< CREATED VIEW ViewPolicyActivityAccount >>>
+ $Id$
+<<< DROPPED VIEW ViewPolicyActivityEntityBill >>>
+<<< CREATED VIEW ViewPolicyActivityEntityBill >>>
+ $Id$
+<<< DROPPED VIEW ViewPolicyActivityEntityFees >>>
+<<< CREATED VIEW ViewPolicyActivityEntityFees >>>
+ $Id$
+<<< DROPPED VIEW ViewPolicyMasterActivityAccount >>>
+<<< CREATED VIEW ViewPolicyMasterActivityAccount >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE AddBillingRuleDetail >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE AgencyBillARAllocation >>>
+<<< SUCCESSFULLY CREATED PROCEDURE AgencyBillARSetPaymentOrderNo >>>
+ $Id$
+<<< DROPPED PROCEDURE AgentARAllocation >>>
+<<< SUCCESSFULLY CREATED PROCEDURE AgentARAllocation >>>
+ $Id$
+<<< DROPPED PROCEDURE AgentARAllocationEB >>>
+<<< SUCCESSFULLY CREATED PROCEDURE AgentARAllocationEB >>>
+ $Id$
+ $Id$
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE AgentStatementCorrespondenceEngine >>>
+ $Id$
+ $Id$
+<<< Successfully created procedure BD_ODS_Reconciliation. >>>
+ $Id$
+<<< CREATED PROCEDURE CashReceiptAgencyReallocPost >>>
+ $Id$
+ $Id$
+>>> Dropping Procedure CashReceiptDirectBillNSF... <<<
+>>> Created Procedure CashReceiptDirectBillNSF. <<<
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE CertificateCorrespondInsert >>>
+ $Id$
+ $Id$
+<<< CREATED PROCEDURE CollectionAgentAgencyBillPost >>>
+ $Id$
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE CopyAgencyBillInterfaceTables >>>
+<<< SUCCESSFULLY CREATED PROCEDURE CopyDirectBillInterfaceTables >>>
+<<< SUCCESSFULLY CREATED PROCEDURE CopyEntityBillInterfaceTables >>>
+ $Id: [CopyProgCompCancellationRules]
+<<< CREATED PROCEDURE CopyProgCompCancellationRules >>>
+ $Id: [CopyProgCompCorrespondenceRules]
+<<< CREATED PROCEDURE CopyProgCompCorrespondenceRules >>>
+ $Id: [CopyProgCompNonRenewalRules]
+<<< CREATED PROCEDURE CopyProgCompNonRenewalRules >>>
+ $Id: [CopyProgCompReinstatementRules]
+<<< CREATED PROCEDURE CopyProgCompReinstatementRules >>>
+ $Id: [CopyProgramCompanyRules]
+<<< CREATED PROCEDURE CopyProgramCompanyRules >>>
+<<< SUCCESSFULLY CREATED PROCEDURE CorrespondCertificateEngine >>>
+ $Id$ [CorrespondenceEngine]
+<<< SUCCESSFULLY CREATED PROCEDURE CorrespondenceEngine >>>
+ CorrespondenceEngineAgentStatement.sql
+ CorrespondenceEngineDeliquentLetters.sql
+<<< CREATED PROCEDURE CreatePolicyControlHistory >>>
+ $Id$
+<<< CREATED PROCEDURE DailyRunStep_CheckCashReceiptEquity >>>
+ DailyRunStep_CheckInvoiceCycle 
+ $Id$
+<<< CREATED PROCEDURE DailyRunStep_FixAllocations >>>
+ $Id$ DailyRunStep_FixAllocationsWithCash.sql
+<<< CREATED PROCEDURE DailyRunStep_FixAllocationsWithCash >>>
+ $Id$
+<<< CREATED PROCEDURE DailyRunStep_GenerateRenewalQuoteInvoices >>>
+ $Id$
+<<< CREATED PROCEDURE DailyRunStep_Invoices >>>
+ $Id$
+<<< CREATED PROCEDURE DailyRunStep_PolicyDisbursement_Select >>>
+ $Id$ DailyRunStep_Recurring.sql
+<<< CREATED PROCEDURE DailyRunStep_Recurring >>>
+ $Id$
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE DeductibleRecoveryARAllocation >>>
+ $Id$
+ $Id$
+ $Id$ [DirectBillARAllocation]
+<<< CREATED PROCEDURE DirectBillARAllocation >>>
+ $Id$
+<<< CREATED PROCEDURE Enterprise_UpdateZipCode >>>
+ $Id$ [EntityBillARAllocation]
+<<< CREATED PROCEDURE EntityBillARAllocation >>>
+ $Id$
+<<< CREATED PROCEDURE GenerateAgencyStatement >>>
+ $Id$
+<<< CREATED PROCEDURE GenerateAgencyStatementV2 >>>
+ $Id$
+<<< CREATED PROCEDURE GenerateAgentAllocation >>>
+ $Id$ GenerateAgentStatement
+<<< Successfully created procedure GenerateAgentStatement. >>>
+ GetAgencyBillItemsForStatement.sql
+<<< CREATED PROCEDURE GetAgencyBillItemsForStatement >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE GetAgentCommissionEB >>>
+ $Id$
+<<< DROPPED PROC GetBD_ImportDetails >>>
+<<< CREATED PROC GetBD_ImportDetails >>>
+ $GetCanceledPolicies$ $vaidyav1$
+<<< Successfully created procedure GetCanceledPolicies >>>
+ $Id: GetCashReceiptsForExport.sql 492915 2010-08-23
+ $Id: GetCollectionDataForExport.sql 492915 2010-08-23
+ $GetCollectionFeed$ 
+<<< Successfully created procedure GetCollectionFeed >>>
+ $Id: GetDataForServiceBus.sql 2010-12-03
+ $Id$
+<<< Successfully created procedure GetDisbursementExport. >>>
+ $Id$
+<<< Successfully created procedure GetDisbursementExport_GK. >>>
+ GetDisbursementExport_TMN
+<<< Successfully created procedure GetDisbursementExport_TMN >>>
+<<< Successfully created procedure GetDisbursementImport. >>>
+ $Id: GetExternalInterfaceDetail.sql 492937 2010-08-23
+ $Id: GetGLDataForExport.sql 492915 2010-08-23
+ $Id: GetGLDataForExport_LoadDetailTable.sql
+ $Id$
+<<< CREATED Procedure dbo.GetGLFeedDataExtract>>>
+ $Id$
+<<< Successfully created procedure GetLockBoxAccountBillUniqueKey. >>>
+<<< CREATED PROCEDURE GetMonthlyRunAgencyBill_OpenPeriod >>>
+<<< CREATED PROCEDURE GetMonthlyRunAgencyBill_Status >>>
+ $Id$
+<<< Successfully created procedure GetODS_Extract. >>>
+ $Id: GetPaymentAllocation.sql
+ $Id$
+ $Id: GetPoliciesToUpdateEquityDateForReportingDecisions.sql 492915 2010-08-23
+ $Id: GetPolicyCountForGL.sql
+ $Id$
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE GetPrintAndMailRequestDetails_BASE >>>
+ $Id: GetReconActivityByDate
+ $Id: GetReconInPolicyNotInBilling
+ Get_DailyRunStep_DirectBillLateFee
+<<< CREATED PROCEDURE Get_DailyRunStep_DirectBillLateFee >>>
+<<< SUCCESSFULLY CREATED PROCEDURE Get_DailyRun_CashDisbursement >>>
+ Get_DailyRun_CheckInvoiceCycle 
+ Get_DailyRun_DirectBillLateFee
+<<< CREATED PROCEDURE Get_DailyRun_DirectBillLateFee >>>
+ $Id$
+ Get_DailyRun_EntityBillCheckInvoiceCycle 
+ Get_DailyRun_EntityBill_GenerateInvoices 
+ Get_EFTExport_DisbursementsToProcess 
+ Get_EFTExport_EntityBillItemsToPay 
+ Get_EftExport_ExternalInterfaceDetails 
+ Get_EFTExport_InstallmentsToPay 
+ Get_MonthlyRunAB_AgentsForRun 
+ Get_MonthlyRunDB_AgentsForRun 
+ Get_MonthlyRunDB_GenerateAgentCheckOrEft 
+ Get_MonthlyRunDB_GenerateDeliquentLetters 
+ Get_MonthlyRunDB_GenerateAgentStatement 
+<<< CREATED PROCEDURE Get_MonthlyRunDB_GenerateAgentStatement >>>
+ Get_MonthlyRunDB_GenerateStatementSettlement 
+ Get_MonthlyRunDB_ReleaseEarnedCommission 
+ $Id$
+<<< CREATED PROCEDURE Get_MonthlyRunDirectBill_OpenPeriod >>>
+ $Id$
+<<< CREATED PROCEDURE Get_ProofOfMailing >>>
+ $Id: ICustomInstallmentFee.sql 4779 2009-06-20 05:27:06Z eusd003 $
+<<< SUCCESSFULLY CREATED PROCEDURE InsertCorrespondenceQueue >>>
+<<< Successfully created procedure InsertDisbursementExport. >>>
+<<< Successfully created procedure InsertDisbursementExport_GK. >>>
+ $InsertDisbursementExport_TMN $ $vaidyav1$
+<<< Successfully created procedure InsertDisbursementExport_TMN. >>>
+<<< Successfully created procedure InsertDisbursementImport. >>>
+<<< Successfully created procedure InsertDisbursementImportHistory. >>>
+ $Id$
+<<< Successfully created procedure InsertDR_ImportImage. >>>
+<<< Successfully created procedure InsertEFTDetail. >>>
+<<< Successfully created procedure InsertEFTFile. >>>
+<<< Successfully created procedure InsertExternalInterface. >>>
+<<< Successfully created procedure InsertExternalInterfaceDetail. >>>
+<<< Successfully created procedure InsertPolicyCollectionTransfer. >>>
+<<< CREATED PROCEDURE InsertToInterfaceDetails_RealTimeQuery >>>
+<<< CREATED PROCEDURE InsertToInterfaceTables_RealTimeQuery >>>
+ $Id$
+ $Id: MMAIUNSFLetter.sql 6925 2010-02-17 23:05:07Z eudc001 $
+<<< Successfully created procedure MMAIUNSFLetter. >>>
+ $Id: MMAIUPaymentCancellationNotice.sql 4344 2009-04-29 13:40:48Z eucxp25 $
+<<< Successfully created procedure MMAIUPaymentCancellationNotice. >>>
+ $Id: MMAIUPaymentReminderNotice.sql 6284 2009-11-11 14:05:27Z eufs003 $
+<<< Successfully created procedure MMAIUPaymentReminderNotice. >>>
+ $Id: MMAIUShortPayNotice.sql 4304 2009-04-23 20:43:18Z eucxp25 $
+<<< Successfully created procedure MMAIUShortPayNotice. >>>
+ $Id: MMAllStateABICollectionNotice.sql  2010-07-08 eusv007 $
+ $Id: dbo.MMAllstateABInvoiceBack.sql 2011-01-13 napitsx $
+ $Id: dbo.MMAllstateABInvoiceOverFlow.sql 2011-01-13 napitsx $
+ $Id: dbo.MMAllstateACCOUNTBILLINVOICE.sql 2011-01-13 napitsx $
+ $Id: MMAllStateCollectionNotice.sql  2010-07-08 eusv007 $
+ $Id: dbo.MMAllstateDIRECTBILLINVOICE.sql 2010-07-19 eujr009 $
+ $Id: dbo.MMAllstateDIRECTBILLINVOICEBACK.sql 2012-02-24 $
+ $Id: dbo.MMAllstateDirectBillInvoiceOverflow.sql $
+ $Id:$
+<<< Successfully created procedure MMAllstateEasyPayInvoiceOverflow. >>>
+ $Id: MMAllStateeCheckNotice.sql  2011-01-15 vaidyav1 $
+ $Id: dbo.MMAllstatePolicyNotReinstate.sql 2010-07-19 DhoneKx $
+ $Id: MMASIABInvoice.sql 4835 2009-06-23 21:12:48Z euab129 $
+ $Id: MMASIABInvoice_AO.sql 4835 2009-06-23 21:12:48Z euab129 $
+<<< SUCCESSFULLY CREATED PROCEDURE MMCancellation_NonPay_GK >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMCancellation_NonPay_KIC >>>
+ $Id: MMCancellation_NonPay_KICNEW.sql 7328 2010-04-28 20:02:29Z eust001 $
+<<< SUCCESSFULLY CREATED PROCEDURE MMCancellation_NonPay_KICNEW >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMCancellation_NonPay_TMN >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMCancellation_UW_KIC >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMCancelNonRenew >>>
+ $Id$
+<<< DROPPED PROCEDURE MMChecks >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMChecks >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMEFTPremiumInvoice >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMEUPremiumInvoice >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMEUPremiumInvoiceTMN >>>
+ $Id: dbo.MMLGDirectBillInvoiceOverflow.sql $
+ $Id:$
+ $Id$
+ $Id: dbo.MMLIGDirectBillInvoice.sql 2010-07-19 eujr009 $
+<<< Successfully created procedure MMLKDedRecLetters. >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMNESInvoiceTMN >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMPayrollDeductionEnrollment >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMPremiumInvoice >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMPremiumInvoice2 >>>
+ $Id$
+<<< Procedure deleted >>>
+<<< SUCCESSFULLY CREATED PROCEDURE  MMPremiumInvoiceAIOI>>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMPremiumInvoiceAO >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMPremiumInvoiceGK >>>
+ $Id: MMPremiumInvoiceGKNEW.sql 7328 2010-04-28 20:02:29Z eust001 $
+<<< SUCCESSFULLY CREATED PROCEDURE MMPremiumInvoiceGKNEW >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMPremiumInvoiceTMN >>>
+ $Id$
+<<< Successfully created procedure MMPremiumInvoice_ASI. >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMReinstatementAIOI >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMReinstatement_KIC >>>
+<<< SUCCESSFULLY CREATED PROCEDURE MMRescission_KIC >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMRescission_TMN >>>
+ $Id: MMTHInvoice.sql 4043 2009-04-07 17:30:24Z euc9w19 $
+<<< SUCCESSFULLY CREATED PROCEDURE MMTHInvoice >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE MMTRCancellation_NonPay >>>
+ $Id$ MMWordAmount.sql
+<<< SUCCESSFULLY CREATED PROCEDURE MMWordAmount >>>
+ $Id$
+ $Id$
+<<< CREATED PROCEDURE PolicyJournalPost >>>
+<<< SUCCESSFULLY CREATED PROCEDURE PopulateAgentARWaitEarned >>>
+<<< SUCCESSFULLY CREATED PROCEDURE PopulateAgentARWaitEarnedEB >>>
+<<< SUCCESSFULLY CREATED PROCEDURE PopulateAgentARWaitEarned_Insert >>>
+<<< SUCCESSFULLY CREATED PROCEDURE PopulateAgentARWaitEarned_InsertEB >>>
+<<< SUCCESSFULLY CREATED PROCEDURE PopulateAgentARWaitEarned_Round >>>
+ $Id$
+<<< CREATED PROCEDURE ProcessAgencyBillFeeAmt >>>
+ $Id$
+<<< CREATED PROCEDURE ProcessAgencyBillFeeAmtV2 >>>
+ $Id:
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE ProdFixCommWritten>>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE ReleaseComm >>>
+<<< SUCCESSFULLY CREATED PROCEDURE ReleaseCommEB >>>
+<<< SUCCESSFULLY CREATED PROCEDURE ReleaseCommOnCash >>>
+<<< SUCCESSFULLY CREATED PROCEDURE ReleaseCommOnCashEB >>>
+<<< SUCCESSFULLY CREATED PROCEDURE ReleaseCommWritten >>>
+<<< SUCCESSFULLY CREATED PROCEDURE ReleaseCommWrittenEB >>>
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpAgencyBillPastDue >>>
+ $Id: RepCollectionReferrals.sql 4022 2009-04-06 21:31:06Z eudb008 $
+<<< Successfully created procedure RepCollectionReferrals. >>>
+ RepCommissionRecon_TMM.sql
+ $Id: RepDirectBillBalanceDue.sql 4043 2009-04-07 17:30:24Z euc9w19 $
+ RepDirectBillCategoryDetail_TMM.sql
+ RepDirectBillMonthlyPremium.sql
+ $Id$
+<<< CREATED Procedure dbo.RepPopulateDBSTables>>>
+<<< CREATED Procedure dbo.RepPopulateOpenARStage>>>
+<<< DROPPED PROC RepSpAccountBillCommissionStatement >>>
+<<< CREATED PROC RepSpAccountBillCommissionStatement >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpAgencyBillCommissionStatement >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpAgencyBillCommissionStatement_UnappliedCash >>>
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpAgencyBillPastDue >>>
+<<< Successfully created procedure RepSpAgencyBillPremiumStatement. >>>
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpAgencyStatementAgentMessage >>>
+<<< CREATED PROCEDURE RepSpAgencyStatementAgingAnalysisFS >>>
+<<< CREATED PROCEDURE RepSpAgencyStatementAgingAnalysisPR >>>
+<<< DROPPED PROC RepSpAgencyStatementCurrentActivity >>>
+<<< Successfully created procedure RepSpAgencyStatementCurrentActivity. >>>
+<<< DROPPED PROC RepSpAgencyStatementCurrentActivityPR >>>
+<<< Successfully created procedure RepSpAgencyStatementCurrentActivityPR. >>>
+ $Id$
+<<< Successfully created procedure RepSpAgencyStatementCurrentDue. >>>
+ $Id$
+<<< CREATED PROCEDURE RepSpAgencyStatementFutureApplied >>>
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpAgencyStatementGlobalMessage >>>
+<<< Successfully created procedure RepSpAgencyStatementHeader. >>>
+<<< Successfully created procedure RepSpAgencyStatementHeaderPR. >>>
+<<< Created procedure RepSpAgencyStatementPastDueFS. >>>
+<<< Successfully created procedure RepSpAgencyStatementSummaryPR. >>>
+ $Id$
+<<< CREATED PROCEDURE RepSpAgencyStatementUnapplied >>>
+ $Id$
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpAgentFutureDueSpringField >>>
+ $Id: RepSpBillingTransactionDetailsReport.sql $
+<<< SUCCESSFULLY CREATED PROCEDURE RepSpBillingTransactionDetailsReport >>>
+<<< Successfully created procedure RepSpDailyReconciliationDetail.>>>
+<<< Successfully created procedure RepSpDailyReconciliationSummary.>>>
+ $Id: RepSpDailySummary 445710 2009-08-27 08:44:00Z eugs001 $
+<<< Successfully created procedure RepSpDailySummary. >>>
+<<< Successfully created procedure RepSpDeductibleRecoveryStatementDetail. >>>
+<<< Successfully created procedure RepSpDeductibleRecoveryStatementPastDue. >>>
+ $Id$
+<<< Successfully created procedure RepSpDirectBillCommissionStatement. >>>
+ $Id$
+<<< Successfully created procedure RepSpDirectBillCommissionStatement_KFIT. >>>
+ $Id$
+<<< Successfully created procedure RepSpEmployerStatement. >>>
+<<< CREATED Procedure dbo.RepSpLockBox>>>
+ $Id: RepSpMasterAgentStatement.sql 4037 2009-04-07 15:24:55Z euc9w19 $
+<<< Successfully created procedure RepSpNotificationReport. >>>
+<<< Successfully created procedure RepSpNotificationReportBinderBillPR. >>>
+ $Id: RepSpPremiumRollForwardReport.sql 6322 2010-01-22 eusd016 $
+ $Id: RepSpUnpostedTransactions.sql 5475 2009-08-25 21:47:03Z eucxp25 $
+<<< Successfully created procedure Retro_ClearCancellation. >>>
+ $Id$
+<<< DROPPED PROCEDURE ReverseCommEB >>>
+<<< SUCCESSFULLY CREATED PROCEDURE ReverseCommEB >>>
+ $Id: dbo.ReverseFinalWriteOff.sql $
+<<< SUCCESSFULLY CREATED PROCEDURE ReverseFinalWriteOff >>>
+ $Id$
+<<< Successfully created procedure RunRetroAgentCommissions. >>>
+ $Id$
+<<< CREATED PROCEDURE SetAccountingPeriod >>>
+ $Id$
+<<< CREATED PROCEDURE SetAgentStatementPeriod >>>
+ $Id: spABATCashReceiptAAccountSuspenseDetail_PageSorted.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id: spABATCashReceipt_AllocationsPageSorted.sql 6119 2009-10-28 10:16:03Z eucc013 $
+ $Id: spABATCashReceipt_AppliedAmountUpdate.sql 5889 2009-09-29 17:17:26Z eucc013 $
+ $Id: spABATCashReceipt_PageSorted.sql 7338 2010-04-29 20:28:38Z eust001 $
+ $Id: spABInstallmentRevisionSearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spABPTAgencyJournal_PagedSorted.sql 7295 2010-04-23 20:01:23Z eucxp25 $
+ $Id: spABPTPolicyJournal_AllocationsPageSorted.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id: spABPTPolicyJournal_ARAllocInsert.sql 5006 2009-07-15 19:47:40Z eucc013 $
+$Id: spAB_ARAlloc_Journal_PagedSorted.sql 6266 2009-11-10 15:04:13Z eucc013 $
+$Id: spAB_ARAlloc_PagedSorted.sql 6421 2009-11-26 14:55:06Z eucc013 $
+ $Id: spAccountBillAccountFeesSearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAccountBillAccountInstallmentsSearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAccountBillAccountSummarySearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAccountBillBranch_PagedSorted.sql 7309 2010-04-26 22:09:21Z eust001 $
+ $Id$
+ $Id$
+ $Id: spAccountBillInstallmentRevisionSearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAccountBillInstallmentUpdateList_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAccountBillPolicyJournalAlloc_PagedSorted.sql 5632 2009-09-03 18:41:27Z eudc004 $
+$Id: spAccountNumberImageSearch_PagedSorted.sql 6172 2009-11-03 14:57:28Z euas016 $
+ $Id: spAccountNumber_CheckExists.sql 5026 2009-07-17 11:34:35Z euas016 $
+ $Id: spAccountSuspenseViewAccount_PagedSorted.sql 4963 2009-07-08 17:58:54Z eufs003 $
+ $Id: spAccountSuspenseViewPolicy_PagedSorted.sql 4964 2009-07-08 17:59:14Z eufs003 $
+ $Id: spAccountSuspenseView_PagedSorted.sql 5027 2009-07-17 16:14:06Z eufs003 $
+ $Id$
+ $Id: spAgencyBillAccountSearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAgencyBillAgencyJournal_PagedSorted.sql 7285 2010-04-22 20:21:00Z eucxp25 $
+ $Id$
+$Id: spAgencyBillARAlloc_AgencyJournalUpdate.sql 3997 2009-04-03 20:51:01Z eucc013 $
+$Id: spAgencyBillARAlloc_CashReceiptUpdate.sql 3992 2009-04-03 17:58:18Z eucc013 $
+$Id: spAgencyBillARAlloc_CashTransactionList.sql 6182 2009-11-04 11:03:37Z eucc013 $
+ $Id$
+ $Id$
+ $Id: spAgencyBillCashDisbursementSuspenseList_PageSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAgencyBillCashReceiptAgencyReallocSuspense_Sorted.sql 6182 2009-11-04 11:03:37Z eucc013 $
+ $Id: spAgencyBillCashReceiptAgencySuspense_PagedSorted.sql 7309 2010-04-26 22:09:21Z eust001 $
+ $Id: spAgencyBillCashReceiptAgencySuspense_Sorted.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id: spAgencyBillInstallments_Sorted.sql 4017 2009-04-06 20:03:55Z eufs003 $
+ $Id: spAgencyBillInstallmentUpdate_PageSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAgencyBillInterfaceDeliveryError_PageSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spAgencyBillMemoEntry_PagedSorted.sql 7309 2010-04-26 22:09:21Z eust001 $
+ $Id: spAgencyBillStatementLineSearch_PageSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id
+ $Id: spAgencyJournalUpd.sql 5654 2009-09-04 21:19:56Z eudc004 $
+$Id: spAgentARAlloc_CashReceiptAllocation_PagedSorted.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id: spAgentARWaitWrittens_PageSorted.sql $
+ $Id: spAgentBillCashReceipt_PageSorted.sql 7338 2010-04-29 20:28:38Z eust001 $
+ $Id: spAgentJournalAllocations_PagedSorted.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id: spAgentJournalDel.sql 5654 2009-09-04 21:19:56Z eudc004 $
+ $Id: spAgentJournalDelx.sql 5654 2009-09-04 21:19:56Z eudc004 $
+ $Id: spAgentJournalGet.sql 2010-05-19 eusv007 $
+ $Id: spAgentJournalIns.sql 5654 2009-09-04 21:19:56Z eudc004 $
+ $Id: spAgentJournalUpd.sql 5654 2009-09-04 21:19:56Z eudc004 $
+ $Id$
+ $Id: spAgentStatementListAll.sql 4560 2009-05-21 21:47:42Z eucc013 $
+ $Id$
+ $Id: spAgentStatementsCombined_PagedSorted.sql 6367 2009-11-19 16:51:33Z eufs003 $
+$Id: spARAlloc_ReallocReapply_PagedSorted.sql 6182 2009-11-04 11:03:37Z eucc013 $
+ $Id: spBankAccountDisbursementList_PagedSorted.sql 5665 2009-09-08 18:53:01Z eudc004 $
+ $Id: spBankAccountEFTImport_PagedSorted.sql 6924 2010-02-17 22:52:45Z eubo117 $
+ $Id: spBankAccountGrid_PagedSorted.sql 5665 2009-09-08 18:53:01Z eudc004 $
+ $Id: spBankAccountReceiptGrid_PagedSorted.sql 5665 2009-09-08 18:53:01Z eudc004 $
+ $Id: spBankAccountReceiptProgramGrid_PagedSorted.sql 5665 2009-09-08 18:53:01Z eudc004 $
+ $Id
+ $Id: spBankAccountSignatoryGrid_PagedSorted.sql 5665 2009-09-08 18:53:01Z eudc004 $
+ $Id: spBatchChecksList_Sorted.sql 6077 2009-10-22 14:11:32Z eufs003 $
+ $Id: spBDClaim_GetList.sql 5289 2009-08-12 11:29:25Z eufs003 $
+ $Id: spBDClaim_PagedSorted.sql 5293 2009-08-12 15:09:40Z eufs003 $
+ $Id$
+<<< Successfully created procedure spBillingDecisionsBalancing.>>>
+ $Id$
+<<< Successfully created procedure spBillingJobExecutionSearch_PagedSorted. >>>
+ $Id$ spBillingPolicyBalancing.sql
+<<< Successfully created procedure spBillingPolicyBalancing. >>>
+ $Id$
+<<< Successfully created procedure spBillingPolicyBalancingA7. >>>
+ $Id$
+<<< Successfully created procedure spBillingPolicyBalancingGK. >>>
+ $Id: spBillingRuleList_PagedSorted 5611 2014-10-08 23:10:55Z $
+ $Id: spBillingRuleSearchByCols_PagedSorted 5611 2014-10-08 23:10:55Z $
+ $Id: spBillingRuleSearch_PagedSorted 5611 2014-10-08 23:10:55Z $
+ $Id: spBlABCashDisbursementSuspensePolicyList.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spBlABPTPolicyJournal_ViewAllocations.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id$
+ $Id$
+ $Id$
+ $Id: spBlDeductibleAccountNumber_GetList.sql 5516 2009-08-27 18:54:44Z eufs003 $
+ $Id: spBlEntityBillPolicyJournal_ViewAllocations.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id$
+ $Id: spBlFormGroup_GetAll 5611 2009-09-03 23:10:55Z $
+ $Id: spBlFormMailingPage_GetAll 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id: spBlPolicyControlCollectionTransferList_Sorted $
+ $Id: spBlPolicyControlHistoryList_Sorted.sql 7178 2010-04-07 14:14:56Z eucxp25 $
+ $Id: spBlPolicyControlInstallments_Sorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spBlPolicyControlMasterInstallments_Sorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spBlPolicyControlPolicyAgentList_Sorted.sql 467686 2010-06-07 14:14:56Z eubo117 $
+ $Id: spBlPolicyControlPolicyEntitiesList_Sorted.sql 7178 2010-04-07 14:14:56Z eucxp25 $
+ $Id: spBlPrintQueue_GetAll 5611 2009-09-03 23:10:55Z $
+ $Id: spBlQuery_GetAll 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id: spBLZip_PagedSorted.sql 4045 2009-04-07 17:53:24Z euc9w19 $
+ $Id$
+ $Id$
+ $Id: spCardPlanList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spCashDisbursementAgentAllocationList_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id$
+ $Id$
+ $Id: spCashDisbursementPolicy_Sorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+ $Id$
+ $Id: spCashReceiptBatchReceiptsSearch_PageSorted.sql 7309 2010-04-26 22:09:21Z eust001 $
+ $Id: spCashReceiptBatch_InsertUpdate.sql 5665 2009-09-08 18:53:01Z eudc004 $
+ $Id: spCashReceiptBatch_PagedSorted.sql 7284 2010-04-22 18:58:00Z eust001 $
+ $Id: spCashReceiptPayDedRealloc_Sorted.sql  $
+ $Id$
+>>> Dropping Procedure spCashReceiptPaymentSource... <<<
+>>> Created Procedure spCashReceiptPaymentSource. <<<
+ $Id: spCashReceiptPolicyReallocate_Sorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spCashReceiptPrograms_Sorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spCashReceiptPrograms_Sorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spCashReceiptReleaseFromSuspenseSearch_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+>>> Dropping Procedure spCashReceiptReversalSource... <<<
+>>> Created Procedure spCashReceiptReversalSource. <<<
+ $Id: spCheckExist_AgentPrefixCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_CardReturnReasonCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_CardTypeCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_CompanyCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_CountyCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_DepartmentCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_EFTReturnReasonCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_JobTitleCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_LegalStructureCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_PrefixCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_RefundReasonCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_SuffixCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_TownCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_TransactionAccountCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckExist_TransactionTypeCode.sql 3550 2009-05-06 16:20:17Z eudc004 $
+ $Id: spCheckIssueancePrintChecksCashDisbursement_PagedSorted.sql 6054 2009-10-20 15:17:38Z euas016 $
+ $Id$
+ $Id: spCheck_FKEYConstraints_Form 5611 2009-09-03 23:10:55Z $
+ $Id: spClaimant_CloseClaimant.sql 5648 2009-09-04 15:28:06Z eufs003 $
+ $Id: spClaimant_GetList.sql 5639 2009-09-03 22:43:32Z eufs003 $
+ $Id: spClaimant_PagedSorted.sql 5389 2009-08-19 16:46:10Z eufs003 $
+ $Id: spClientRuleBoolean.sql 2010-05-24 $
+ $Id$
+ $Id$
+ $Id$
+$Id: spCommissionTrans_GetReallocSource.sql 4463 2009-05-08 16:18:20Z eucc013 $
+ $Id$
+ $Id: spCorrespondenceAccountRuleList_PagedSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spCorrespondenceEntityAccountRuleList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spCorrespondenceQueueIns.sql 5607 2009-09-04 23:10:24Z eudc004 $
+ $Id: spCorrespondenceQueueSearch_PagedSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spCorrespondenceQueueUpd.sql 5607 2009-09-04 23:10:24Z eudc004 $
+ $Id$
+ $Id: spCTAgentReapply_pageSorted.sql 6006 2009-10-13 14:48:14Z eucc013 $
+ $Id: spCTCashReceipt_PageSorted.sql 7338 2010-04-29 20:28:38Z eust001 $
+ $Id$
+ $Id: spCustomRightsList.sql 
+ $Id$
+ $Id: spDailyRunLogList_PagedSorted.sql 5665 2009-09-08 18:53:01Z eudc004 $
+ $Id: spDailyRunSetCurrentEffDate.sql 7419 2010-05-13 19:20:23Z eucxp25 $
+ $Id: spDailyRunUnsuspendPolicies.sql eucxp25 $
+ $Id$
+ $Id: spDeductibleAccountInvoiceSearch_PagedSorted.sql 5611 2009-09-21 23:10:55Z $
+ $Id: spDeductibleAccountInvoiceSummary_PagedSorted.sql 5611 2009-09-21 23:10:55Z $
+ $Id: spDeductibleRecoverCashDisbursementSearch_PagedSorted.sql 7338 2010-04-29 20:28:38Z eust001 $
+ $Id$
+ $Id: spDeductibleRecoveryARAging_PageSorted.sql 5884 2009-09-29 15:18:29Z eufs003 $
+ $Id: spDeductibleRecoveryARInstallment_PagedSorted.sql 5753 2009-09-18 11:02:09Z eufs003 $
+ $Id: spDeductibleRecoveryAR_PagedSorted.sql 7309 2011-06-10 14:55:47Z eudgv07 $
+ $Id: spDeductibleRecoveryAR_ReviseInstallment.sql 5755 2009-09-18 11:04:51Z eufs003 $
+ $Id: spDeductibleRecoveryEntryPost.sql 5894 2009-09-29 18:15:37Z eufs003 $
+ $Id: spDeductibleRecoveryEntry_PagedSorted.sql 5449 2009-08-24 15:34:58Z eufs003 $
+ $Id: spDeductibleRecoveryInstallments_PagedSorted.sql 7309 2010-04-26 22:09:21Z eust001 $
+ $Id$
+ $Id: spDeductibleRecoveryStatementLine_PagedSorted.sql 5277 2009-08-11 13:37:55Z eufs003 $
+ $Id: spDeductibleRecoveryStatement_PagedSorted.sql 7309 2010-04-26 22:09:21Z eust001 $
+ $Id$
+ $Id: spDirectBillAgentCommission_PagedSorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spDirectBillAgentJournal_PagedSorted.sql 7302 2010-04-26 16:17:04Z eust001 $
+ $Id$
+ $Id: spDirectBillARAllGet.sql 5607 2009-09-09 23:10:24Z eudc004 $
+ $Id: spDirectBillAR_GetPolicyBalanceAmount.sql 6183 2009-11-04 13:19:20Z eufs003 $
+ $Id: spDirectBillAR_GetPolicyTotalPaid.sql 6183 2010-06-02 eubo117 $
+ $Id: spDirectBillAR_GetPolicyTotalPremium.sql 2010-06-02 eubo117 $
+ $Id: spDirectBillAR_PagedSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+ $Id: spDirectBillDiaryHistorySearch_PageSorted.sql 7309 2010-04-26 22:09:21Z eust001 $
+ $Id$
+ $Id: spDirectBillInstallment_Paged.sql 6924 2010-02-17 22:52:45Z eubo117 $
+ $Id: spDirectBillInstallment_PagedSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spDirectBillInterfaceDeliveryError_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+ $Id: spDirectBillJournalEntriesSearch_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spDirectBillPolicyActivitySearch.sql 5607 2009-09-16 23:10:24Z eudc004 $
+ $Id: spDirectBillPolicyInvoiceDetail_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spDirectBillPolicyInvoice_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spDirectBillPolicyJournalAlloc_PagedSorted.sql 6278 2009-11-11 09:03:06Z eucc013 $
+ $Id: spDirectBillRescindCancellationSearch_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+ $Id: spDRCashReceipt_AllocationsPageSorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spDRCashReceipt_PageSorted.sql 7338 2010-04-29 20:28:38Z eust001 $
+ $Id: spDRClaimsDecisionsSearch_PagedSorted.sql 5443 2009-08-24 09:35:52Z eudc004 $
+ $Id: spDRJournalSearch_PagedSorted.sql 7298 2010-04-23 21:17:23Z eucxp25 $
+ $Id: spDRPolicyJournal_AllocationsPageSorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spEFTFileCashDisbursements_Sorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spEFTFileCashReceiptBatch_Sorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spEFTFilePolicyJournalEntry_Sorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spEFTFile_PageSorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spEFTPlanDiscountList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spEFTPlanList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id: spEmployeeList.sql 
+ $Id$
+ $Id: spEmployerStatementLineSearch_PageSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id: spEmployerStatementSchedDetList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id$
+ $Id: spEmployerStatementScheduleList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id$
+ $Id: spEntityAccountBillAccountNumberInfoList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spEntityAccountBillAccountNumberList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id$
+ $Id$
+ $Id: spEntityAccountInstallmentsSearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spEntityAccountSearch_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id: spEntityAccountSummary_PagedSorted.sql 5611 2009-09-03 23:10:55Z $
+ $Id: spEntityBillARAlloc_DependencyInsert.sql 6924 2010-02-17 22:52:45Z eubo117 $
+$Id: spEntityBillARAlloc_PagedSorted.sql 6421 2009-11-26 14:55:06Z eucc013 $
+ $Id$
+ $Id$
+ $Id$
+ $Id$
+ $Id: spEntityBillCashReceipt_PageSorted.sql 7338 2010-04-29 20:28:38Z eust001 $
+ $Id: spEntityBillEntityAccountByIdGetList 5611 2009-09-03 23:10:55Z $
+ $Id: spEntityBillExternalEntityAccountGetList 5611 2009-09-03 23:10:55Z $
+ $Id: spEntityBillInterfaceDeliveryError_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spEntityBillPolicyJournalAlloc_PagedSorted.sql 5632 2009-09-03 18:41:27Z eudc004 $
+ $Id: spEntityBillPolicyJournal_ARAllocDelete.sql 5401 2009-08-20 09:36:15Z eucc013 $
+ $Id: spEntityBillPolicyJournal_PagedSorted.sql 7295 2010-04-23 20:01:23Z eucxp25 $
+$Id: spEntityBill_ARAlloc_PagedSorted.sql 6421 2009-11-26 14:55:06Z eucc013 $
+ $Id: spEntityCompanyList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id: spEntityFormDeliveryList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id: spEntityHistoryList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id: spEntityList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id$
+ $Id$
+ $Id: spEntityRelationshipList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id$
+ $Id: spEntityRoleList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id$
+ $Id$
+ $Id$
+ $Id$
+ $Id: spFormAttachment_CheckExists 5611 2009-09-03 23:10:55Z $
+ $Id: spFormAttachment_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spFormField_CheckExists 5611 2009-09-03 23:10:55Z $
+ $Id: spFormField_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spFormMailingPageList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id: spFormOverlay_CheckExists 5611 2009-09-03 23:10:55Z $
+ $Id: spFormOverlay_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spFormsList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spForm_CheckExists 5611 2009-09-03 23:10:55Z $
+ $Id: spGetBankAccountSignatories.sql 6111 2009-10-27 14:14:20Z eufs003 $
+ $Id$
+ $Id$: spGetBillingInquiryTermsList.sql 2010-09-25 18:24:41Z vaidyav1 $
+ $Id: spGetBillingRulesDetailsByRuleId_PagedSorted 5611 2014-10-08 23:10:55Z $
+ $Id$
+ $Id$
+<<< Successfully created procedure spGetCollectionDataForExport. >>>
+ $Id$: spGetCollectionNoticeData.sql 2010-09-25 18:24:41Z DhoneKX $
+ $Id: spGetCompanyInfoByCompanyCode.sql 5036 2009-07-17 23:29:44Z eufs003 $
+ $Id: spGetCountryByStateCode.sql 5013 2009-07-16 18:02:04Z eufs003 $
+ $Id$
+>>> Dropping Procedure spGetDefaultCurrency... <<<
+>>> Created Procedure spGetDefaultCurrency. <<<
+ $Id$
+ $Id
+<<< CREATED PROCEDURE spGetDNAExport_ProcessStatus >>>
+ spGetFailedDebitCreditExportJobs 
+<<< CREATED PROCEDURE spGetFailedDebitCreditExportJobs >>>
+ $Id: spGetLastMonthlyRunAbInfo.sql $
+<<< CREATED PROCEDURE spGetLastMonthlyRunAbInfo >>>
+ $Id: spGetLastMonthlyRunDbInfo.sql 7436 2010-05-14 18:38:32Z eust001 $
+<<< CREATED PROCEDURE spGetLastMonthlyRunDbInfo >>>
+ $Id: spGetManualEntryPolicyFileImport_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+ $Id: spGetPolicyControl.sql 4343 2009-04-29 13:16:32Z eucc013 $
+ $Id$
+ $Id$
+ $Id$
+$Id: spImageDocumentCatalogueSearch_PagedSorted.sql 6172 2009-11-03 14:57:28Z euas016 $
+ $Id: spImagePageList_PagedSorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+<<< Successfully created procedure spInsertDisbursementExportHistory. >>>
+<<< Successfully created procedure spInsertDisbursementImportHistory. >>>
+ $Id: spInsertRN_CancelReinstateCycle.sql
+ $Id$
+<<< Successfully created procedure spJournalEntryToAdjustBalances. >>>
+ $Id$
+ $Id$
+ $Id: spListActionList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spListNameList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id: spLockboxDetails_PagedSorted.sql 5607 2009-12-08 23:10:24Z eudc004 $
+ $Id: spManualCheckReconciliation_PagedSorted.sql 6051 2009-10-19 21:48:48Z eufs003 $
+ $Id: spManualEntryPolicyAccount_List.sql 6324 2009-11-16 14:45:28Z eucc013 $
+ $Id: spManualEntryPolicyTransactionList_PagedSorted.sql 5666 2009-09-08 22:15:25Z eudc004 $
+ $Id: spManualImportList_PagedSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id: spManualRescindPayPlanScheduleCountGet.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+ spMonthlyRunABAgentUpdate.sql
+<<< CREATED PROCEDURE spMonthlyRunABAgentUpdate >>>
+ spMonthlyRunDBAgentUpdate.sql
+<<< CREATED PROCEDURE spMonthlyRunDBAgentUpdate >>>
+ $Id
+<<< CREATED PROCEDURE spMonthlyRun_PreCheck >>>
+ $Id
+ $Id$
+ $Id: spPayrollCycleList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+ $Id$
+ $Id: spPayrollDeductionCashReceipt_PageSorted.sql 7338 2010-04-29 20:28:38Z eust001 $
+ $Id$
+ $Id$
+ $Id: spPayrollDeductJournalEntriesSearch_PageSorted.sql 5607 2009-09-08 23:10:24Z eudc004 $
+ $Id$
+ $Id: spPDCashReceiptSuspense_Sorted.sql $
+ $Id: spPolicyActivity_GetTotals.sql 5607 2011-12-02 23:10:24Z comenddx $
+ $Id: 
+ $Id: 
+$Id: spPolicyControlMasterImageSearch_PagedSorted.sql 6172 2009-11-03 14:57:28Z euas016 $
+ $Id: 
+ $Id$
+ $Id$
+ $Id: spPolicyJournalEntityBillARAlloc_CheckExists.sql 6924 2010-02-17 22:52:45Z eubo117 $
+ $Id: spPolicyMasterActivity_GetTotals.sql 5607 2011-12-02 23:10:24Z comenddx $
+ $Id: spPolicyMasterPolicyActivitySearch.sql 5607 2009-09-16 23:10:24Z eudc004 $
+ $Id: 
+ $Id$
+[Microsoft][SQL Server Native Client 11.0][SQL Server][starting script $Id: spProcessedCashDisbursSummary.sql 4613 2009-06-01 18:48:18Z eueb004 $
+<<< CREATED Procedure dbo.spProcessedCashDisbursSummary>>>
+ $Id$
+ $Id: spQueryList_PagedSorted.sql 6279 2009-11-11 09:55:17Z eurm012 $
+<<< CREATED PROCEDURE spRdBillingDecisionsMonthlyBalancing >>>
+ $Id: spReasonCodeList_PagedSorted 5611 2009-09-03 23:10:55Z $
+ $Id$
+ $Id$
+ $Id$
+ $Id$
+ $Id: spRepInvoiced.sql 
+ $Id: spRepOpenBalance.sql 
+ $Id$
+ $Id$
+ $Id: spSetDailyRun_EndDate.sql 7373 2012-01-18 10:21:57Z comenddx $
+<<< CREATED PROCEDURE spSetDailyRun_EndDate >>>
+ $Id
+<<< CREATED PROCEDURE spSetMonthlyRun_ProcessStatus >>>
+<<< CREATED PROCEDURE spSetMonthlyRunAB_Results >>>
+ spSetMonthlyRunAgencyBill_EndDate.sql
+<<< CREATED PROCEDURE spSetMonthlyRunAgencyBill_EndDate >>>
+ $Id
+<<< CREATED PROCEDURE spSetMonthlyRunAgencyBill_ProcessStatus >>>
+ spSetMonthlyRun_EndDate.sql
+<<< CREATED PROCEDURE spSetMonthlyRun_EndDate >>>
+ $Id
+<<< CREATED PROCEDURE spSetMonthlyRun_ProcessStatus >>>
+ $Id$
+<<< Successfully created procedure spSRSSAutomationAgencyBillAgentStatement. >>>
+<<< Successfully created procedure spSRSSAutomationAgencyStatement. >>>
+ $Id$
+ $Id$
+$Id: spUsers_GetList.sql 3491 2009-02-22 08:20:55Z eucc013 $
+ $Id: spViewManualEntryProgramCompanyList.sql 4742 2009-06-17 16:53:15Z eufs003 $
+ $Id: spWriteOffInstallmentFees.sql 2010-05-24 WaniDX $
+ $Id: spZipCode_CheckExists.sql 5998 2009-10-13 09:24:41Z euas016 $
+<<< DROPPED PROC dbo.UpdateAccountSuspense >>>
+<<< CREATED PROC dbo.UpdateAccountSuspense >>>
+<<< DROPPED PROC dbo.UpdateAgentARAgentARWaitWritten >>>
+<<< CREATED PROC dbo.UpdateAgentARAgentARWaitWritten >>>
+<<< Successfully created procedure UpdateCashDisbursement. >>>
+ $InsertDisbursementExport_TMN $ $vaidyav1$
+<<< Successfully created procedure UpdateDisbursementExportHistory. >>>
+<<< Successfully created procedure UpdateDisbursementImportHistory. >>>
+ $Id: UpdateExternalInterface.sql 492937 2010-08-23
+ $Id: UpdateExternalInterfaceDetail.sql 492937 2010-08-23
+FK_CashReceiptPayDedSuspense_CashSuspense already exists.
+FK_CorrespondenceMonitorMessage_CorrespondenceMonitor Already Exists.
+FK_Installment_InstallmentSchedule Already Exists.
+Index IDX_ABARAlloc_ABARNum already exists
+Index IDX_ABAR_PolicyNo already exists
+Index IDX_ABIDetail_ABINum already exists
+Index IDX_ABI_PolicyNo already exists
+Index IDX_CashReceipt_BatchDate_UserCode_BatchNum_SourceInd_Incl_Amt already exists
+Index IDX_CQ_PolicyNo already exists
+Index IDX_CRC_PolicyNo already exists
+Index IDX_CRP_PolicyNo already exists
+Index IDX_DirectBillAR_PolicyTransactionNum_AccountCode already exists
+Index IDX_DRLog_PolicyNo already exists
+Index IDX_EH_EntityNum already exists
+Index IDX_EIDetail_PN_EINum already exists
+Index IDX_EntityAccount_ExternalEntityAccountID already exists
+Index IDX_MQ_PolicyNo already exists
+Index IDX_ODS_Extract_PolicyNo already exists
+Index IDX_PFI_PolicyNo already exists
+Index IDX_PI_PolicyNo already exists
+Index IDX_PolicyControlHistory_PolicyNo already exists
+Index IDX_PolicyControl_BillingType already exists
+Index IDX_PolicyControl_PolicyNo already exists
+Index IDX_PolicyEntity_PolicyNo already exists
+Index IDX_PolicyNo already exists
+Index IDX_Policy_PolicyNo already exists
+Index IDX_PPM_PolicyNo already exists
+Index IX_DirectBillAR_CashReceiptNum_Exported already exists
+GRANTING RIGHTS FOR procedure GenerateAgentAllocation
+GRANTING RIGHTS FOR procedure MMGKEFTEndorsements
+GRANTING RIGHTS FOR procedure MMLKDedRecLetters
+GRANTING RIGHTS FOR procedure MMLKOnDemandLetters
+GRANTING RIGHTS FOR procedure MMPremiumInvoice_ASI
+GRANTING RIGHTS FOR table TempDBInvoiceStep
+GRANTING RIGHTS FOR procedure GetNSFDataForServiceBus
+GRANTING RIGHTS FOR procedure spBlPolicy_GetList 
+GRANTING RIGHTS FOR procedure MMTransguardInvoice
+GRANTING RIGHTS FOR view vAgencyBillAging
+GRANTING RIGHTS FOR procedure MMTrRescissionNotice
+GRANTING RIGHTS FOR view ViewAgencyBillInstallmentsTemp
+GRANTING RIGHTS FOR view ViewBillingInquiry
+GRANTING RIGHTS FOR view ViewInsuredNameSearch
+GRANTING RIGHTS FOR table TempDBSPolicyStage
+GRANTING RIGHTS FOR procedure RepPopulateDBSTables
+GRANTING RIGHTS FOR procedure RepSpAccountBillCommissionStatement
+GRANTING RIGHTS FOR procedure BD_ODS_Reconciliation
+GRANTING RIGHTS FOR function fnFormatNumericForCurrencyCode
+GRANTING RIGHTS FOR procedure spCashDisbursementAppliedAmountByAgencyBillARAlloc_Update
+GRANTING RIGHTS FOR procedure InsertDR_ImportImage
+GRANTING RIGHTS FOR procedure MMACIGInvoice
+GRANTING RIGHTS FOR procedure Retro_ClearCancellation
+GRANTING RIGHTS FOR procedure MMAIUNSFLetter
+GRANTING RIGHTS FOR procedure MMAIUPaymentCancellationNotice
+GRANTING RIGHTS FOR procedure MMAIUShortPayNotice
+GRANTING RIGHTS FOR procedure CreatePolicyPaymentMethodPolicyControlHistory
+GRANTING RIGHTS FOR procedure spBankAccountSignatoryGrid_PagedSorted
+GRANTING RIGHTS FOR procedure Enterprise_UpdateZipCode
+GRANTING RIGHTS FOR procedure MMChecksAgent

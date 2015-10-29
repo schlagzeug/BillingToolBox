@@ -1,0 +1,51 @@
+
+=============Beginning Log 11:19:00=============
+
+Starting up...
+Loading services
+Main window initialized
+Format of the initialization string does not conform to specification starting at index 0.
+Format of the initialization string does not conform to specification starting at index 0.
+An OLE DB Provider was not specified in the ConnectionString.  An example would be, 'Provider=SQLOLEDB;'.
+An OLE DB Provider was not specified in the ConnectionString.  An example would be, 'Provider=SQLOLEDB;'.
+Invalid authorization specification
+
+==============Closing Log 11:40:42==============
+
+
+=============Beginning Log 11:43:07=============
+
+Starting up...
+Loading services
+Main window initialized
+
+==============Closing Log 11:43:24==============
+
+
+=============Beginning Log 11:45:49=============
+
+Starting up...
+Loading services
+Main window initialized
+
+==============Closing Log 11:46:00==============
+
+
+=============Beginning Log 11:48:44=============
+
+Starting up...
+Loading services
+Main window initialized
+
+==============Closing Log 11:48:53==============
+
+
+=============Beginning Log 11:50:02=============
+
+Starting up...
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 11:50:06==============
+

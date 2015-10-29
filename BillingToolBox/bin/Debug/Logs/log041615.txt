@@ -1,0 +1,11 @@
+
+=============Beginning Log 11:18:07=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 11:18:18==============
+

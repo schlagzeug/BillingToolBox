@@ -1,0 +1,132 @@
+
+=============Beginning Log 05:45:10=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:45:24==============
+
+
+=============Beginning Log 05:46:03=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:46:18==============
+
+
+=============Beginning Log 05:46:52=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:47:03==============
+
+
+=============Beginning Log 05:48:01=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:48:06==============
+
+
+=============Beginning Log 05:48:52=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:48:57==============
+
+
+=============Beginning Log 05:50:00=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:50:11==============
+
+
+=============Beginning Log 05:50:32=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:50:49==============
+
+
+=============Beginning Log 05:51:02=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:51:08==============
+
+
+=============Beginning Log 05:51:48=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:52:32==============
+
+
+=============Beginning Log 05:53:17=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:53:42==============
+
+
+=============Beginning Log 05:54:47=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 05:54:51==============
+
+
+=============Beginning Log 06:03:09=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Populating Databases
+Main window initialized
+
+==============Closing Log 06:03:34==============
+

@@ -1,0 +1,12 @@
+﻿Code version: 6.1.37.86
+Assembly name System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a mvid {e13ed9ff-2be6-4fbc-a753-e0d51134a935}
+* ref mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {518b749c-2b5d-4c33-bb2b-228131ae8d1c}
+* ref System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {5abd58fd-df31-44fd-a492-63f2b47cc9af}
+* ref System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {1e1d7d9a-5d4a-4e33-b2ca-586071a4b465}
+* ref System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {beea3f0c-6d31-4e07-924c-15dc1c76cf2c}
+* ref System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {74fb2022-c2e2-4038-8d65-312404148fdd}

@@ -1,0 +1,20 @@
+﻿BillingToolBox
+
+
+winexe
+C#
+.cs
+C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\obj\x86\Debug\
+BillingToolBox
+none
+false
+DEBUG;TRACE
+C:\Users\reynolse\Documents\Visual Studio 2010\Projects\BillingToolBox\BillingToolBox\App.xaml
+15161962522
+
+38-141024595
+181121477747
+Windows\BDDFolderSelect.xaml;Windows\BDServicebusConfig.xaml;Windows\BD_CentralConfig.xaml;Windows\ChangeConnectionStringWindow.xaml;Windows\CustomizeCommandsAndArgumentsWindow.xaml;Windows\MergeDB.xaml;Windows\PathTableAddEntryWindow.xaml;Windows\PathTableMainWindow.xaml;MainWindow.xaml;Windows\PopUpWindow.xaml;Windows\ServiceBusEndpointEditWindow.xaml;Windows\ServiceEditWindow.xaml;Windows\DatabaseTableViewer.xaml;Windows\TableLookupByColumnName.xaml;Windows\UpdateSystemSettings.xaml;
+
+False
+

@@ -1,0 +1,71 @@
+
+=============Beginning Log 09:34:01=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Loading processes
+Main window initialized
+
+==============Closing Log 09:37:00==============
+
+
+=============Beginning Log 09:40:04=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Loading processes
+Main window initialized
+
+==============Closing Log 09:40:50==============
+
+
+=============Beginning Log 09:42:45=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Loading processes
+Main window initialized
+
+==============Closing Log 09:43:43==============
+
+
+=============Beginning Log 09:44:54=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Main window initialized
+
+==============Closing Log 09:45:08==============
+
+
+=============Beginning Log 11:08:51=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Main window initialized
+
+=============Beginning Log 11:10:24=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Main window initialized
+
+=============Beginning Log 11:12:48=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Main window initialized
+
+=============Beginning Log 11:41:41=============
+
+Starting up...
+Setting up run test combo boxes
+Loading services
+Main window initialized

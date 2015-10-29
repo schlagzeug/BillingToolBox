@@ -1,0 +1,10 @@
+﻿Code version: 6.1.37.86
+Assembly name System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a mvid {57c7a867-9cdc-42e2-8d76-ccb28a01f3a0}
+* ref mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {518b749c-2b5d-4c33-bb2b-228131ae8d1c}
+* ref System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {5abd58fd-df31-44fd-a492-63f2b47cc9af}
+* ref System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {1e1d7d9a-5d4a-4e33-b2ca-586071a4b465}
+* ref Microsoft.JScript, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {fca72132-d304-4977-8464-197c5942ba89}

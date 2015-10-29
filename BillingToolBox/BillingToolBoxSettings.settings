@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BillingToolBox" GeneratedClassName="BillingToolBoxSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Services" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Billing WindowsServiceConsole&lt;/string&gt;
+  &lt;string&gt;Billing WindowsServiceCorrespondence&lt;/string&gt;
+  &lt;string&gt;Billing WindowsServiceInterface&lt;/string&gt;
+  &lt;string&gt;Billing WindowsServicePolicyTransactionPublisher&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="BDCentralConfigLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Work\DevPathTable\BillingDecisions_CentralConfig.xml</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=master;Data Source=HFDSREYNOLDSW7D\SQLSERVER</Value>
+    </Setting>
+    <Setting Name="CommandTable" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;CMD--C:\Work\Products\DailyBuild\Bin\insurity.billing.consoleapplicationinterface.exeARG--,/checkdisbursementexport,/checkdisbursementimport,/checkdisbursementimport /importfilename,/collectionexport,/dailyrun,/dailyrun /invoicedate&amp;lt;DATE&amp;gt;,/donotacceptexport,/eftexport,/eftexport /eftdate=&amp;lt;DATE&amp;gt;,/eftexport /regenerate=&amp;lt;ID&amp;gt;,/generalledgerexport,/lockboximportdirectbill,/lockboximportdirectbill /importfilename,/lockboximportaccountbill,/lockboximportaccountbill /importfilename,/monthlyrundirectbill /accountinggroupcode,/monthlyrunagencybill /accountinggroupcode,/paymentexport,/paymentimportagencybill /importfilepath,/paymentimportdirectbill,/paymentimportpayrolldeduct,/recurringbatch,/recurringsend,/recurringimport&lt;/string&gt;
+  &lt;string&gt;CMD--C:\QuickLaunch\SprocsAndBats\Merge\mergSqlFilesAutoEDIT.cmd&lt;/string&gt;
+  &lt;string&gt;CMD--C:\QuickLaunch\SprocsAndBats\Merge\mergerunonEDIT.cmd&lt;/string&gt;
+  &lt;string&gt;CMD--C:\Work\Products\DailyBuild\BillingLegacy\NetSource\ExternalInterface.Console\obj\Debug\Insurity.BillingDecisions.ExternalInterface.Console.exeARG--COL,PAY,DNA,GL&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="BDServiceBusConfigLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Work\DevPathTable\BDServicebusConfig.xml</Value>
+    </Setting>
+    <Setting Name="BDD_Directory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Work\Products\DailyBuild\Billing\Database\BDD</Value>
+    </Setting>
+    <Setting Name="MergeFolders" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;TableScripts&lt;/string&gt;
+  &lt;string&gt;Functions&lt;/string&gt;
+  &lt;string&gt;Views&lt;/string&gt;
+  &lt;string&gt;StoredProcs&lt;/string&gt;
+  &lt;string&gt;Indexes&lt;/string&gt;
+  &lt;string&gt;DataScripts&lt;/string&gt;
+  &lt;string&gt;RunEveryTime&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

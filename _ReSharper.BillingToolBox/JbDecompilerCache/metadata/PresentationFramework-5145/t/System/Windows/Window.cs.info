@@ -1,0 +1,32 @@
+﻿Code version: 6.1.37.86
+Assembly name PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 mvid {28015d22-30f0-4801-81ab-44dca279a2aa}
+* ref mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {518b749c-2b5d-4c33-bb2b-228131ae8d1c}
+* ref System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {5abd58fd-df31-44fd-a492-63f2b47cc9af}
+* ref System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {50abab51-7dc3-4f0a-a797-0d0c2d124d60}
+* ref PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {007af2b3-285a-4fea-8352-665395ea48dd}
+* ref System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {16154c58-f7a3-4c5e-88e2-465c85059f50}
+* ref WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {bf94efe2-c694-4a45-9443-16d10ec3eb24}
+* ref UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {8e384728-8bb9-415d-83eb-f1c7f84ae630}
+* ref System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {b6b3008b-9e41-422e-9f5c-f7f1099e10ab}
+* ref System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {23108b8b-08a8-484a-b588-2685f5f03237}
+* ref PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {61f45209-b517-42fb-af22-0f9675efcd25}
+* ref System.Printing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {256afbfe-5e36-4f02-beb3-ff1b4d7485bd}
+* ref ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {8f2cf7c9-2ba5-47a6-bdbd-b3b543321fea}
+* ref UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  mvid {30751df4-51a0-40c9-b925-bc4b93af20b8}
+* ref System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {c1b758bd-c981-4bdf-915c-2aa8815aa8bf}
+* ref Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {a9099161-7ac7-462d-9aa2-dc71eb3c9a08}
